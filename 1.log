@@ -1,0 +1,1497 @@
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+dispatch Prepare  2 0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+Table Scan Prepare
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:00.071173 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 103.424µs, Establish: 7.307339ms, UpgradeTLS: 0s, Authenticate: 7.300757ms, SendErrPacket: 0s, SendOKPacket: 22.051µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 7.258608ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 548|10.158.6.74:51018|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b: -- 0:0:0}|goRoutineId 15110|018f03b8-971f-7ea3-b32e-740a2b05a542"}
+{"level":"INFO","time":"2024/04/22 02:53:00.071426 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 548|10.158.6.74:51018|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15110|018f03b8-971f-7ea3-b32e-740a2b05a542"}
+{"level":"ERROR","time":"2024/04/22 02:53:00.071715 +0000","caller":"frontend/mysql_cmd_executor.go:4620","msg":"error: internal error: !!!COM_QUIT!!!","span":{"trace_id":"0ffbf66a-5779-ccd3-a516-5a3730ce6b21","span_id":"9f2e3676eae81016"}}
+{"level":"ERROR","time":"2024/04/22 02:53:00.071748 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:291","msg":"Failed to execute request","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 548|10.158.6.74:51018|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15110|018f03b8-971f-7ea3-b32e-740a2b05a542","session_id":"018f03b8-971f-7ea3-b32e-740a2b05a542"}
+{"level":"ERROR","time":"2024/04/22 02:53:00.071773 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:534","msg":"Error occurred","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 548|10.158.6.74:51018|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15110|018f03b8-971f-7ea3-b32e-740a2b05a542","session_id":"018f03b8-971f-7ea3-b32e-740a2b05a542"}
+{"level":"INFO","time":"2024/04/22 02:53:00.071833 +0000","caller":"frontend/routine.go:351","msg":"set query status on the connection 548"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_cron_task[cron_task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option cron_expr next_time trigger_times create_at update_at],
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  13
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b87-7819-9aeb-26e19355eb05[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b85-74a1-9d80-0ddc96f9393a[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b84-794e-b8b3-eed7dc6d1ad9[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b82-75ea-8ba2-449472a00d9f[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown, unknown, unknown, unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at __mo_rowid],
+}
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b82-75ea-8ba2-449472a00d9f[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+!!!!! dispatch.SendToAllLocalFunc
+dispatch Prepare  2 0
+!!!!! dispatch.SendToAllLocalFunc
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+dispatch Prepare  6 0
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b84-794e-b8b3-eed7dc6d1ad9[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+dispatch Prepare  2 0
+!!!!! dispatch.SendToAllLocalFunc
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b85-74a1-9d80-0ddc96f9393a[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+dispatch Prepare  2 0
+Table Scan Prepare
+JoinRun 1 false 3
+[0xc00debde00 0xc00debde18]
+regTransplant  0 0
+regTransplant  1 0
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b87-7819-9aeb-26e19355eb05[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+before join mergerun
+[0xc009034330 0xc009034348 0xc009034360]
+[0xc00debde18]
+[0xc00debde00]
+JoinRun 1 false 3
+dispatch Prepare  2 0
+JoinRun 1 false 3
+Inner Join Prepare 54162
+dispatch Prepare  1 0
+JoinRun 1 false 3
+before receiveHashMap ReceiveFromSingleReg  0xc00cb6e780
+Inner Join Prepare 54162
+[0xc00debdd28 0xc00debdd40]
+Inner Join Prepare 54162
+regTransplant  0 0
+before receiveHashMap ReceiveFromSingleReg  0xc00cb6e660
+regTransplant  1 0
+[0xc00debdfe0 0xc009034000]
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+regTransplant  0 0
+regTransplant  1 0
+before join mergerun
+[0xc00b8c7fe0 0xc00e02e000 0xc00e02e018]
+[0xc00debdd40]
+[0xc00debdd28]
+dispatch Prepare  3 0
+before receiveHashMap ReceiveFromSingleReg  0xc00cb6e8a0
+before join mergerun
+dispatch Prepare  3 0
+[0xc00b5e6ab0 0xc00b5e6ac8 0xc00b5e6ae0]
+[0xc009034000]
+dispatch Prepare  3 0
+[0xc00debdfe0]
+Inner Join Prepare 54162
+before receiveHashMap ReceiveFromSingleReg  0xc00dc3e420
+[0xc00debdef0 0xc00debdf08]
+dispatch Prepare  1 0
+dispatch Prepare  3 0
+Inner Join Prepare 54162
+Inner Join Prepare 54162
+Inner Join Prepare 54162
+before receiveHashMap ReceiveFromSingleReg  0xc00e11dc80
+before receiveHashMap ReceiveFromSingleReg  0xc00e11da40
+before receiveHashMap ReceiveFromSingleReg  0xc00dc3e300
+regTransplant  0 0
+regTransplant  1 0
+dispatch Prepare  1 0
+Inner Join Prepare 54162
+before join mergerun
+[0xc00e02e0a8 0xc00e02e0c0 0xc00e02e0d8]
+[0xc00debdf08]
+[0xc00debdef0]
+Inner Join Prepare 54162
+Inner Join Prepare 54162
+before receiveHashMap ReceiveFromSingleReg  0xc00e11db60
+before receiveHashMap ReceiveFromSingleReg  0xc00dc3e1e0
+before receiveHashMap ReceiveFromSingleReg  0xc00cb6ede0
+dispatch Prepare  1 0
+Inner Join Prepare 54162
+before receiveHashMap ReceiveFromSingleReg  0xc00cb6ecc0
+dispatch Prepare  3 0
+dispatch Prepare  3 0
+dispatch Prepare  3 0
+dispatch Prepare  3 0
+Inner Join Prepare 54162
+before receiveHashMap ReceiveFromSingleReg  0xc00cb6ef00
+Table Scan Free
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Table Scan Prepare
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Table Scan Prepare
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Table Scan Prepare
+Table Scan Prepare
+Table Scan Free
+Inner Join Free
+Inner Join Free
+Table Scan Free
+Inner Join Free
+Inner Join Free
+Inner Join Free
+Table Scan Free
+Table Scan Free
+Inner Join Free
+Inner Join Free
+Inner Join Free
+Inner Join Free
+Inner Join Free
+Inner Join Free
+Inner Join Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_cron_task[cron_task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option cron_expr next_time trigger_times create_at update_at],
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+dispatch Prepare  2 0
+Table Scan Prepare
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:03.071329 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 91.663µs, Establish: 5.863855ms, UpgradeTLS: 0s, Authenticate: 5.858245ms, SendErrPacket: 0s, SendOKPacket: 22.092µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 5.817018ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 549|10.158.6.74:51042|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b: -- 0:0:0}|goRoutineId 15101|018f03b8-a2d9-7619-ab94-324104d19921"}
+{"level":"INFO","time":"2024/04/22 02:53:03.071523 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 549|10.158.6.74:51042|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15101|018f03b8-a2d9-7619-ab94-324104d19921"}
+{"level":"ERROR","time":"2024/04/22 02:53:03.071849 +0000","caller":"frontend/mysql_cmd_executor.go:4620","msg":"error: internal error: !!!COM_QUIT!!!","span":{"trace_id":"3bc8dea6-b691-ca11-c15c-b9faa35168a5","span_id":"b111a46dd555e869"}}
+{"level":"ERROR","time":"2024/04/22 02:53:03.071881 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:291","msg":"Failed to execute request","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 549|10.158.6.74:51042|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15101|018f03b8-a2d9-7619-ab94-324104d19921","session_id":"018f03b8-a2d9-7619-ab94-324104d19921"}
+{"level":"ERROR","time":"2024/04/22 02:53:03.071909 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:534","msg":"Error occurred","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 549|10.158.6.74:51042|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15101|018f03b8-a2d9-7619-ab94-324104d19921","session_id":"018f03b8-a2d9-7619-ab94-324104d19921"}
+{"level":"INFO","time":"2024/04/22 02:53:03.071969 +0000","caller":"frontend/routine.go:351","msg":"set query status on the connection 549"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:04.378111 +0000","caller":"blockio/pipeline.go:495","msg":"SelectivityStats: BLK[0/0=0.0000] COL[232/263=0.8821] RDF[2/2=1.0000,347/367=0.9455]RDD[0s/0s/0s/0]"}
+cnList Length  2
+{"level":"WARN","time":"2024/04/22 02:53:06.035192 +0000","name":"cn-service.morpc","caller":"morpc/backend.go:457","msg":"system is busy, write loop schedule interval is too large","uuid":"64653032-6434-6239-6266-373539633164","interval":"5.997450649s","last-ping-trigger-time":"2024/04/22 02:53:00.037713 +0000","ping-interval":"24s"}
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+{"level":"ERROR","time":"2024/04/22 02:53:06.049029 +0000","caller":"frontend/mysql_cmd_executor.go:4620","msg":"error: internal error: !!!COM_QUIT!!!","span":{"trace_id":"95cca522-5f94-85c2-a297-defa96f79176","span_id":"6d1c922e8a21e85a"}}
+{"level":"INFO","time":"2024/04/22 02:53:06.049117 +0000","caller":"frontend/routine.go:351","msg":"set query status on the connection 528"}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+dispatch Prepare  2 0
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:06.055340 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 88.797µs, Establish: 5.763717ms, UpgradeTLS: 0s, Authenticate: 5.757025ms, SendErrPacket: 0s, SendOKPacket: 20.219µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 5.719784ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 550|10.158.6.74:51072|{account sys:mo_logger: -- 0:0:0}|goRoutineId 15256|018f03b8-ae81-703a-90f8-804a4046f943"}
+{"level":"INFO","time":"2024/04/22 02:53:06.058898 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 550|10.158.6.74:51072|{account sys:mo_logger:moadmin -- 0:4294967295:0}|goRoutineId 15256|018f03b8-ae81-703a-90f8-804a4046f943"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+dispatch Prepare  2 0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+Table Scan Prepare
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_cron_task[cron_task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option cron_expr next_time trigger_times create_at update_at],
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:06.073342 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 98.244µs, Establish: 5.570474ms, UpgradeTLS: 0s, Authenticate: 5.566306ms, SendErrPacket: 0s, SendOKPacket: 22.323µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 5.530809ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 551|10.158.6.74:51074|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b: -- 0:0:0}|goRoutineId 15257|018f03b8-ae90-7620-af2b-0a0dadd6ece0"}
+{"level":"INFO","time":"2024/04/22 02:53:06.073524 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 551|10.158.6.74:51074|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15257|018f03b8-ae90-7620-af2b-0a0dadd6ece0"}
+{"level":"ERROR","time":"2024/04/22 02:53:06.073766 +0000","caller":"frontend/mysql_cmd_executor.go:4620","msg":"error: internal error: !!!COM_QUIT!!!","span":{"trace_id":"5154fe7e-821b-354f-5920-8dbb900bb64e","span_id":"205249d9061f1f88"}}
+{"level":"ERROR","time":"2024/04/22 02:53:06.073799 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:291","msg":"Failed to execute request","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 551|10.158.6.74:51074|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15257|018f03b8-ae90-7620-af2b-0a0dadd6ece0","session_id":"018f03b8-ae90-7620-af2b-0a0dadd6ece0"}
+{"level":"ERROR","time":"2024/04/22 02:53:06.073835 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:534","msg":"Error occurred","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 551|10.158.6.74:51074|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15257|018f03b8-ae90-7620-af2b-0a0dadd6ece0","session_id":"018f03b8-ae90-7620-af2b-0a0dadd6ece0"}
+{"level":"INFO","time":"2024/04/22 02:53:06.073900 +0000","caller":"frontend/routine.go:351","msg":"set query status on the connection 551"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+dispatch Prepare  2 0
+Table Scan Prepare
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge top -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> top -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:07.627394 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 133.481µs, Establish: 6.067638ms, UpgradeTLS: 0s, Authenticate: 6.062739ms, SendErrPacket: 0s, SendOKPacket: 22.212µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 6.024808ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 552|10.158.6.77:42754|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b: -- 0:0:0}|goRoutineId 15226|018f03b8-b4a5-7203-bd02-eebb4805b9fc"}
+{"level":"INFO","time":"2024/04/22 02:53:07.627568 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 552|10.158.6.77:42754|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15226|018f03b8-b4a5-7203-bd02-eebb4805b9fc"}
+{"level":"ERROR","time":"2024/04/22 02:53:07.627855 +0000","caller":"frontend/mysql_cmd_executor.go:4620","msg":"error: internal error: !!!COM_QUIT!!!","span":{"trace_id":"28003675-bdc8-82b6-fba1-7f5e18e0da39","span_id":"fbaa09450303f92a"}}
+{"level":"ERROR","time":"2024/04/22 02:53:07.627892 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:291","msg":"Failed to execute request","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 552|10.158.6.77:42754|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15226|018f03b8-b4a5-7203-bd02-eebb4805b9fc","session_id":"018f03b8-b4a5-7203-bd02-eebb4805b9fc"}
+{"level":"ERROR","time":"2024/04/22 02:53:07.627915 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:534","msg":"Error occurred","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 552|10.158.6.77:42754|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15226|018f03b8-b4a5-7203-bd02-eebb4805b9fc","session_id":"018f03b8-b4a5-7203-bd02-eebb4805b9fc"}
+{"level":"INFO","time":"2024/04/22 02:53:07.627979 +0000","caller":"frontend/routine.go:351","msg":"set query status on the connection 552"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  13
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b87-7819-9aeb-26e19355eb05[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b85-74a1-9d80-0ddc96f9393a[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b84-794e-b8b3-eed7dc6d1ad9[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+Node_join  1 1 1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Remote, Receiver: [2, 3]): [join]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+  DataSource: mo_task.__mo_index_secondary_018f03ab-3b82-75ea-8ba2-449472a00d9f[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+    PreScopes: {
+    Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  }
+}
+Node_TableScan  1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown, unknown, unknown, unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at __mo_rowid],
+}
+dispatch Prepare  6 0
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b84-794e-b8b3-eed7dc6d1ad9[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+Table Scan Prepare
+dispatch Prepare  2 0
+JoinRun 1 false 3
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+!!!!! dispatch.SendToAllLocalFunc
+[0xc00b0cad08 0xc00b0cad20]
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b87-7819-9aeb-26e19355eb05[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+dispatch Prepare  2 0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+regTransplant  0 0
+regTransplant  1 0
+before join mergerun
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b85-74a1-9d80-0ddc96f9393a[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+[0xc00b170c90 0xc00b170ca8 0xc00b170cc0]
+dispatch Prepare  2 0
+!!!!! dispatch.SendToAllLocalFunc
+[0xc00b0cad20]
+[0xc00b0cad08]
+!!!!! dispatch.SendToAllLocalFunc
+JoinRun 1 false 3
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f03ab-3b82-75ea-8ba2-449472a00d9f[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+dispatch Prepare  2 0
+[0xc00b0cac30 0xc00b0cac48]
+JoinRun 1 false 3
+Inner Join Prepare 54170
+before receiveHashMap ReceiveFromSingleReg  0xc00a28e2a0
+[0xc00b0cade0 0xc00b0cadf8]
+dispatch Prepare  1 0
+regTransplant  0 0
+regTransplant  1 0
+dispatch Prepare  3 0
+Inner Join Prepare 54170
+before join mergerun
+regTransplant  0 0
+before receiveHashMap ReceiveFromSingleReg  0xc00a28e060
+Inner Join Prepare 54170
+JoinRun 1 false 3
+regTransplant  1 0
+dispatch Prepare  3 0
+[0xc0027170e0 0xc0027170f8 0xc002717110]
+[0xc00b0cadf8]
+[0xc00b0cade0]
+[0xc00b0cab40 0xc00b0cab58]
+before join mergerun
+[0xc00b170d98 0xc00b170db0 0xc00b170dc8]
+[0xc00b0cac48]
+[0xc00b0cac30]
+regTransplant  0 0
+regTransplant  1 0
+dispatch Prepare  3 0
+Inner Join Prepare 54170
+before receiveHashMap ReceiveFromSingleReg  0xc00ec9d2c0
+Inner Join Prepare 54170
+Inner Join Prepare 54170
+before receiveHashMap ReceiveFromSingleReg  0xc00ec9d3e0
+dispatch Prepare  3 0
+dispatch Prepare  1 0
+before receiveHashMap ReceiveFromSingleReg  0xc00a28e180
+Inner Join Prepare 54170
+Inner Join Prepare 54170
+Inner Join Prepare 54170
+before receiveHashMap ReceiveFromSingleReg  0xc00cc240c0
+before receiveHashMap ReceiveFromSingleReg  0xc00db61f80
+Table Scan Free
+before join mergerun
+[0xc008cc09a8 0xc008cc09c0 0xc008cc09d8]
+[0xc00b0cab58]
+[0xc00b0cab40]
+before receiveHashMap ReceiveFromSingleReg  0xc00c4601e0
+before receiveHashMap ReceiveFromSingleReg  0xc00c4600c0
+dispatch Prepare  3 0
+dispatch Prepare  1 0
+Inner Join Prepare 54170
+dispatch Prepare  3 0
+before receiveHashMap ReceiveFromSingleReg  0xc00c460540
+dispatch Prepare  3 0
+Inner Join Prepare 54170
+before receiveHashMap ReceiveFromSingleReg  0xc00c460660
+Inner Join Prepare 54170
+dispatch Prepare  1 0
+before receiveHashMap ReceiveFromSingleReg  0xc00c460420
+dispatch Prepare  3 0
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Table Scan Prepare
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Table Scan Prepare
+Table Scan Prepare
+Table Scan Free
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Table Scan Free
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Inner Join Free
+Table Scan Free
+Inner Join Free
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Inner Join Free
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Inner Join Free
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Inner Join Free
+Inner Join Free
+after receiveHashMap ReceiveFromSingleReg  false <nil>
+Inner Join Free
+Inner Join Free
+Inner Join Free
+Table Scan Prepare
+Table Scan Free
+Inner Join Free
+Inner Join Free
+Inner Join Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_cron_task[cron_task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option cron_expr next_time trigger_times create_at update_at],
+}
+Table Scan Prepare
+Table Scan Free
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+dispatch Prepare  2 0
+Table Scan Prepare
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:09.075833 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 106.35µs, Establish: 6.70066ms, UpgradeTLS: 0s, Authenticate: 6.69588ms, SendErrPacket: 0s, SendOKPacket: 20.308µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 6.661215ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 553|10.158.6.74:51100|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b: -- 0:0:0}|goRoutineId 15322|018f03b8-ba49-7c76-8cf6-6aef3dc8eef8"}
+{"level":"INFO","time":"2024/04/22 02:53:09.076039 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 553|10.158.6.74:51100|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15322|018f03b8-ba49-7c76-8cf6-6aef3dc8eef8"}
+{"level":"ERROR","time":"2024/04/22 02:53:09.076321 +0000","caller":"frontend/mysql_cmd_executor.go:4620","msg":"error: internal error: !!!COM_QUIT!!!","span":{"trace_id":"414b6861-2fe0-a50d-3b73-fe63afc7678e","span_id":"5e7774c77a90b9e4"}}
+{"level":"ERROR","time":"2024/04/22 02:53:09.076353 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:291","msg":"Failed to execute request","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 553|10.158.6.74:51100|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15322|018f03b8-ba49-7c76-8cf6-6aef3dc8eef8","session_id":"018f03b8-ba49-7c76-8cf6-6aef3dc8eef8"}
+{"level":"ERROR","time":"2024/04/22 02:53:09.076371 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:534","msg":"Error occurred","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 553|10.158.6.74:51100|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15322|018f03b8-ba49-7c76-8cf6-6aef3dc8eef8","session_id":"018f03b8-ba49-7c76-8cf6-6aef3dc8eef8"}
+{"level":"INFO","time":"2024/04/22 02:53:09.076428 +0000","caller":"frontend/routine.go:351","msg":"set query status on the connection 553"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:09.349164 +0000","name":"cn-service.StatsLog","caller":"mometric/stats_log_writer.go:91","msg":"fs:CN:64653032-6434-6239-6266-373539633164:SHARED","uuid":"64653032-6434-6239-6266-373539633164","FileService Cache Hit Rate":0.9825072886297376,"FileService Cache Memory Hit Rate":0.9940652818991098,"FileService Cache Disk Hit Rate":0.3333333333333333,"FileService.S3.Get":4,"FileService.Cache.Read":343,"FileService.Cache.Hit":337,"FileService.Cache.Memory.Read":337,"FileService.Cache.Memory.Hit":335,"FileService.Cache.Disk.Read":6,"FileService.Cache.Disk.Hit":2,"FileService.Cache.Disk.OpenIOEntryFile":1,"FileService.Cache.Disk.OpenFullFile":1}
+{"level":"INFO","time":"2024/04/22 02:53:09.349221 +0000","name":"cn-service.StatsLog","caller":"mometric/stats_log_writer.go:121","msg":"duration: 15000000000, blk hit rate: 3/4=0.7500, entry hit rate: 5/8=0.6250, (average) blks in each reader: 4/4=1.0000","uuid":"64653032-6434-6239-6266-373539633164"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+dispatch Prepare  2 0
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:10.186537 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 120.137µs, Establish: 5.738208ms, UpgradeTLS: 0s, Authenticate: 5.732017ms, SendErrPacket: 0s, SendOKPacket: 24.245µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 5.692553ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 554|10.158.6.72:39212|{account sys:mo_logger: -- 0:0:0}|goRoutineId 15305|018f03b8-bea4-73c5-a899-a496bafd23ca"}
+{"level":"INFO","time":"2024/04/22 02:53:10.186749 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 554|10.158.6.72:39212|{account sys:mo_logger:moadmin -- 0:4294967295:0}|goRoutineId 15305|018f03b8-bea4-73c5-a899-a496bafd23ca"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
+    PreScopes: {
+    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
+    DataSource: [],
+  }
+  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
+  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
+  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
+  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
+  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
+  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
+  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+}
+dispatch Prepare  8 0
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_cron_task[cron_task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option cron_expr next_time trigger_times create_at update_at],
+}
+Table Scan Prepare
+Table Scan Free
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+!!!!! dispatch.SendToAllLocalFunc
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[configuration_id account_id account_name dat_name variable_name variable_value system_variables __mo_rowid],
+}
+dispatch Prepare  2 0
+Table Scan Prepare
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+Table Scan Free
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
+}
+Table Scan Prepare
+Table Scan Free
+{"level":"INFO","time":"2024/04/22 02:53:12.070908 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:507","msg":"mo accept connection, time cost of Created: 133.782µs, Establish: 5.879183ms, UpgradeTLS: 0s, Authenticate: 5.874014ms, SendErrPacket: 0s, SendOKPacket: 20.979µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 5.83434ms","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 555|10.158.6.74:51128|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b: -- 0:0:0}|goRoutineId 15238|018f03b8-c600-7ca6-bd4b-6fe0c556a1ce"}
+{"level":"INFO","time":"2024/04/22 02:53:12.071098 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:274","msg":"mo received first request","uuid":"64653032-6434-6239-6266-373539633164","session_info":"connectionId 555|10.158.6.74:51128|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15238|018f03b8-c600-7ca6-bd4b-6fe0c556a1ce"}
+{"level":"ERROR","time":"2024/04/22 02:53:12.071360 +0000","caller":"frontend/mysql_cmd_executor.go:4620","msg":"error: internal error: !!!COM_QUIT!!!","span":{"trace_id":"10e13b43-88e1-7389-ef18-223636f9e202","span_id":"fecc009e3849314f"}}
+{"level":"ERROR","time":"2024/04/22 02:53:12.071394 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:291","msg":"Failed to execute request","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 555|10.158.6.74:51128|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15238|018f03b8-c600-7ca6-bd4b-6fe0c556a1ce","session_id":"018f03b8-c600-7ca6-bd4b-6fe0c556a1ce"}
+{"level":"ERROR","time":"2024/04/22 02:53:12.071435 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:534","msg":"Error occurred","uuid":"64653032-6434-6239-6266-373539633164","error":"internal error: !!!COM_QUIT!!!","session_info":"connectionId 555|10.158.6.74:51128|{account sys:ddaa9f9d-eab0-443f-abc1-a1a32613240b:moadmin -- 0:4294967295:0}|goRoutineId 15238|018f03b8-c600-7ca6-bd4b-6fe0c556a1ce","session_id":"018f03b8-c600-7ca6-bd4b-6fe0c556a1ce"}
+{"level":"INFO","time":"2024/04/22 02:53:12.071513 +0000","caller":"frontend/routine.go:351","msg":"set query status on the connection 555"}
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
+cnList Length  2
+blkNum  0
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+cnList Length  2
+blkNum  1
+Node_TableScan  1
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
+  }
+}
+Table Scan Prepare
+Table Scan Free
