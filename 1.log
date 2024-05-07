@@ -4,919 +4,1276 @@ Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
   DataSource: [],
 }
-PreScope 0 1 1
-merge Prepare 42949672955
-aliveMergeReceiver =  1 42949672955
-connector Prepare 42949672955
-connector put bat into  0xc00e660ae0 42949672955
-connector End 42949672955
-connector Free 42949672955
-connector Free put nil into  0xc00e660ae0 42949672955
-aliveMergeReceiver =  1 42949672955
-aliveMergeReceiver =  0 42949672955
-merge End 42949672955
-merge Free 42949672955
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
-  }
-}
-PreScope 0 1 0
-merge Prepare 16276
-aliveMergeReceiver =  1 16276
-PreScope 0 1 2
-connector Prepare 16276
-aliveMergeReceiver =  1 16276
-Before handleRuntimeFilter 16276
-Finish handleRuntimeFilter 16276 1
-TableScan Prepare 16276
-connector Prepare 16276
-connector End 16276
-TableScan Free 16276
-connector Free 16276
-connector Free put nil into  0xc01a1a5c20 16276
-aliveMergeReceiver =  0 16276
-connector End 16276
-connector Free 16276
-connector Free put nil into  0xc01a1a5c80 16276
-aliveMergeReceiver =  0 16276
-merge End 16276
-merge Free 16276
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
-  DataSource: [],
-}
-PreScope 0 1 1
-merge Prepare 42949672958
-aliveMergeReceiver =  1 42949672958
-connector Prepare 42949672958
-connector put bat into  0xc00a46b0e0 42949672958
-connector End 42949672958
-connector Free 42949672958
-connector Free put nil into  0xc00a46b0e0 42949672958
-aliveMergeReceiver =  1 42949672958
-aliveMergeReceiver =  0 42949672958
-merge End 42949672958
-merge Free 42949672958
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
-  }
-}
-PreScope 0 1 0
-merge Prepare 16279
-aliveMergeReceiver =  1 16279
-PreScope 0 1 2
-connector Prepare 16279
-aliveMergeReceiver =  1 16279
-Before handleRuntimeFilter 16279
-Finish handleRuntimeFilter 16279 1
-TableScan Prepare 16279
-connector Prepare 16279
-connector End 16279
-TableScan Free 16279
-connector Free 16279
-connector Free put nil into  0xc01849b9e0 16279
-aliveMergeReceiver =  0 16279
-connector End 16279
-connector Free 16279
-connector Free put nil into  0xc01849ba40 16279
-aliveMergeReceiver =  0 16279
-merge End 16279
-merge Free 16279
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
-  DataSource: [],
-}
-PreScope 0 1 1
-merge Prepare 429496729511
-aliveMergeReceiver =  1 429496729511
-connector Prepare 429496729511
-connector put bat into  0xc00d7d2a80 429496729511
-connector End 429496729511
-connector Free 429496729511
-connector Free put nil into  0xc00d7d2a80 429496729511
-aliveMergeReceiver =  1 429496729511
-aliveMergeReceiver =  0 429496729511
-merge End 429496729511
-merge Free 429496729511
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
-  }
-}
-PreScope 0 1 0
-merge Prepare 162712
-aliveMergeReceiver =  1 162712
-PreScope 0 1 2
-connector Prepare 162712
-Before handleRuntimeFilter 162712
-Finish handleRuntimeFilter 162712 1
-TableScan Prepare 162712
-aliveMergeReceiver =  1 162712
-connector Prepare 162712
-connector End 162712
-TableScan Free 162712
-connector Free 162712
-connector Free put nil into  0xc00a7c28a0 162712
-aliveMergeReceiver =  0 162712
-connector End 162712
-connector Free 162712
-connector Free put nil into  0xc00a7c2900 162712
-aliveMergeReceiver =  0 162712
-merge End 162712
-merge Free 162712
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
-  DataSource: [],
-}
-PreScope 0 1 1
-merge Prepare 429496729514
-aliveMergeReceiver =  1 429496729514
-connector Prepare 429496729514
-connector put bat into  0xc00a7c2fc0 429496729514
-connector End 429496729514
-connector Free 429496729514
-connector Free put nil into  0xc00a7c2fc0 429496729514
-aliveMergeReceiver =  1 429496729514
-aliveMergeReceiver =  0 429496729514
-merge End 429496729514
-merge Free 429496729514
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
-  }
-}
-PreScope 0 1 0
-merge Prepare 162715
-aliveMergeReceiver =  1 162715
-PreScope 0 1 2
-connector Prepare 162715
-aliveMergeReceiver =  1 162715
-Before handleRuntimeFilter 162715
-Finish handleRuntimeFilter 162715 1
-TableScan Prepare 162715
-connector Prepare 162715
-connector End 162715
-TableScan Free 162715
-connector Free 162715
-connector Free put nil into  0xc00c68f4a0 162715
-aliveMergeReceiver =  0 162715
-connector End 162715
-connector Free 162715
-connector Free put nil into  0xc00c68f500 162715
-aliveMergeReceiver =  0 162715
-merge End 162715
-merge Free 162715
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
-  DataSource: [],
-}
-PreScope 0 1 1
-merge Prepare 429496729517
-aliveMergeReceiver =  1 429496729517
-connector Prepare 429496729517
-connector put bat into  0xc00a7c3440 429496729517
-connector End 429496729517
-connector Free 429496729517
-connector Free put nil into  0xc00a7c3440 429496729517
-aliveMergeReceiver =  1 429496729517
-aliveMergeReceiver =  0 429496729517
-merge End 429496729517
-merge Free 429496729517
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
-  }
-}
-PreScope 0 1 0
-merge Prepare 162718
-aliveMergeReceiver =  1 162718
-PreScope 0 1 2
-connector Prepare 162718
-aliveMergeReceiver =  1 162718
-Before handleRuntimeFilter 162718
-Finish handleRuntimeFilter 162718 1
-TableScan Prepare 162718
-connector Prepare 162718
-connector End 162718
-TableScan Free 162718
-connector Free 162718
-connector Free put nil into  0xc00859c300 162718
-aliveMergeReceiver =  0 162718
-connector End 162718
-connector Free 162718
-connector Free put nil into  0xc00859c360 162718
-aliveMergeReceiver =  0 162718
-merge End 162718
-merge Free 162718
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
-  DataSource: [],
-}
-PreScope 0 1 1
-merge Prepare 429496729520
-aliveMergeReceiver =  1 429496729520
-connector Prepare 429496729520
-connector put bat into  0xc00859cb40 429496729520
-connector End 429496729520
-connector Free 429496729520
-connector Free put nil into  0xc00859cb40 429496729520
-aliveMergeReceiver =  1 429496729520
-aliveMergeReceiver =  0 429496729520
-merge End 429496729520
-merge Free 429496729520
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
-  }
-}
-PreScope 0 1 0
-merge Prepare 162721
-aliveMergeReceiver =  1 162721
-PreScope 0 1 2
-connector Prepare 162721
-aliveMergeReceiver =  1 162721
-Before handleRuntimeFilter 162721
-Finish handleRuntimeFilter 162721 1
-TableScan Prepare 162721
-connector Prepare 162721
-connector End 162721
-TableScan Free 162721
-connector Free 162721
-connector Free put nil into  0xc00ce0dd40 162721
-aliveMergeReceiver =  0 162721
-connector End 162721
-connector Free 162721
-connector Free put nil into  0xc00ce0dda0 162721
-aliveMergeReceiver =  0 162721
-merge End 162721
-merge Free 162721
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
-  DataSource: [],
-}
-PreScope 0 1 1
-merge Prepare 429496729523
-aliveMergeReceiver =  1 429496729523
-connector Prepare 429496729523
-connector put bat into  0xc00a7c3920 429496729523
-connector End 429496729523
-connector Free 429496729523
-connector Free put nil into  0xc00a7c3920 429496729523
-aliveMergeReceiver =  1 429496729523
-aliveMergeReceiver =  0 429496729523
-merge End 429496729523
-merge Free 429496729523
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_daemon_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option account_id account task_type task_runner task_status last_heartbeat create_at update_at end_at last_run details],
-  }
-}
-PreScope 0 1 0
-merge Prepare 162724
-aliveMergeReceiver =  1 162724
-PreScope 0 1 2
-connector Prepare 162724
-aliveMergeReceiver =  1 162724
-Before handleRuntimeFilter 162724
-Finish handleRuntimeFilter 162724 1
-TableScan Prepare 162724
-connector Prepare 162724
-connector End 162724
-TableScan Free 162724
-connector Free 162724
-connector Free put nil into  0xc014542cc0 162724
-aliveMergeReceiver =  0 162724
-connector End 162724
-connector Free 162724
-connector Free put nil into  0xc014542d20 162724
-aliveMergeReceiver =  0 162724
-merge End 162724
-merge Free 162724
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
-  DataSource: [],
-}
-PreScope 0 1 1
 merge Prepare 429496729526
 aliveMergeReceiver =  1 429496729526
 connector Prepare 429496729526
-connector put bat into  0xc00a46b8c0 429496729526
+connector put bat into  0xc01730e420 429496729526
 connector End 429496729526
 connector Free 429496729526
-connector Free put nil into  0xc00a46b8c0 429496729526
+connector Free put nil into  0xc01730e420 429496729526
 aliveMergeReceiver =  1 429496729526
 aliveMergeReceiver =  0 429496729526
 merge End 429496729526
 merge Free 429496729526
 
 Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
-merge Prepare 162728
+merge Prepare 152528
 
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
-merge Prepare 162728
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+merge Prepare 152528
+merge Prepare 152528
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+merge Prepare 152528
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+}
+connector Prepare 152528
+merge Prepare 152528
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+
+Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+  PreScopes: {
+  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+    PreScopes: {
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
+    DataSource: mo_task.__mo_index_secondary_018f5299-fb1a-7623-adb0-1cd000794924[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
+      PreScopes: {
+      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+    }
+  }
+}
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+merge Prepare 152528
+connector Prepare 152528
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+}
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+Start JoinRun 3 1
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
 
 Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown, unknown, unknown, unknown, unknown].]
   PreScopes: {
   Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
   DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at __mo_rowid],
 }
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
-merge Prepare 162728
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
-}
-PreScope 0 1 0
-merge Prepare 162728
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
-}
-PreScope 0 1 0
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
-}
-merge Prepare 162728
-PreScope 0 1 0
-aliveMergeReceiver =  1 162728
-merge Prepare 162728
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
-}
-PreScope 0 1 0
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
-merge Prepare 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-PreScope 0 1 2
-connector Prepare 162728
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
-}
-PreScope 0 1 0
-merge Prepare 162728
-merge Prepare 162728
+merge Prepare 152528
+3 2
+aliveMergeReceiver =  1 152528
+Join Run 7
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+merge Prepare 152528
+merge Prepare 152528
+connector Prepare 152528
+aliveMergeReceiver =  3 152528
+aliveMergeReceiver =  1 152528
+inner join prepare
+Before handleRuntimeFilter 152528
 
 Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
   PreScopes: {
   Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
     PreScopes: {
     Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-897d-7543-8063-c4d959a9cd69[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    DataSource: mo_task.__mo_index_secondary_018f5299-fb1f-7388-a3bf-20ba2d07fb65[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
     Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
       PreScopes: {
       Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
     }
   }
 }
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
+connector Prepare 152528
+Finish handleRuntimeFilter 152528 1
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
 
 Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
   PreScopes: {
   Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
     PreScopes: {
     Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-8982-73a2-9b63-ebcd4c99d036[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    DataSource: mo_task.__mo_index_secondary_018f5299-fb23-7b5e-b1c8-1862a0f752cc[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
     Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
       PreScopes: {
       Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
     }
   }
 }
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
+merge Prepare 152528
+merge Prepare 152528
+inner join prepare
+connector Prepare 152528
+TableScan Prepare 152528
+Before handleRuntimeFilter 152528
+merge Prepare 152528
+connector Prepare 152528
 
 Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
   PreScopes: {
   Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
     PreScopes: {
     Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-8977-7166-b9fa-1c2a62ca57fc[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
+    DataSource: mo_task.__mo_index_secondary_018f5299-fb27-73df-a21d-c27a35344137[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
     Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
       PreScopes: {
       Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
     }
   }
 }
-PreScope 0 1 2
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-PreScope 0 1 2
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-merge Prepare 162728
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
-merge Prepare 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-PreScope 0 1 2
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
 Start JoinRun 3 1
-aliveMergeReceiver =  1 162728
-merge Prepare 162728
-merge Prepare 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-merge Prepare 162728
-3 2
-aliveMergeReceiver =  1 162728
-Join Run 7
-aliveMergeReceiver =  1 162728
-PreScope 0 7 0
-Start JoinRun 3 1
-connector Prepare 162728
-inner join prepare
-connector Prepare 162728
-Start JoinRun 3 1
-3 2
-Join Run 7
-PreScope 0 7 0
-PreScope 1 7 0
-PreScope 2 7 0
-PreScope 3 7 2
-PreScope 4 7 0
-3 2
-Join Run 7
-PreScope 5 7 0
-PreScope 1 7 0
-PreScope 6 7 0
-PreScope 2 7 0
-PreScope 3 7 2
-merge Prepare 162728
-PreScope 4 7 0
-connector Prepare 162728
-PreScope 5 7 0
-aliveMergeReceiver =  3 162728
-PreScope 6 7 0
-merge Prepare 162728
-connector Prepare 162728
-aliveMergeReceiver =  3 162728
-Before handleRuntimeFilter 162728
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
-
-Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
-  PreScopes: {
-  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-8986-7d72-abbd-995822f7c0b0[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
-    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
-      PreScopes: {
-      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
-    }
-  }
-}
-inner join prepare
-PreScope 0 1 2
-connector Prepare 162728
-merge Prepare 162728
-inner join prepare
-Before handleRuntimeFilter 162728
-aliveMergeReceiver =  1 162728
-connector Prepare 162728
+aliveMergeReceiver =  1 152528
 Start JoinRun 3 1
 inner join prepare
-connector Prepare 162728
-inner join prepare
-inner join prepare
-connector Prepare 162728
-connector Prepare 162728
-Finish handleRuntimeFilter 162728 1
-merge Prepare 162728
-Before handleRuntimeFilter 162728
-aliveMergeReceiver =  1 162728
+merge Prepare 152528
+connector Prepare 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+connector Prepare 152528
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+Start JoinRun 3 1
+connector Prepare 152528
+aliveMergeReceiver =  1 152528
 3 2
 Join Run 7
-PreScope 0 7 0
-PreScope 1 7 0
-PreScope 2 7 0
-PreScope 3 7 2
-PreScope 4 7 0
-PreScope 5 7 0
-PreScope 6 7 0
-TableScan Prepare 162728
-merge Prepare 162728
-PreScope 0 1 0
-merge Prepare 162728
-PreScope 0 1 0
-aliveMergeReceiver =  1 162728
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-Before handleRuntimeFilter 162728
+3 2
+Join Run 7
+connector Prepare 152528
+Before handleRuntimeFilter 152528
+3 2
+Join Run 7
+merge Prepare 152528
+connector Prepare 152528
+aliveMergeReceiver =  3 152528
+merge Prepare 152528
+connector Prepare 152528
+aliveMergeReceiver =  3 152528
+merge Prepare 152528
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
 inner join prepare
+aliveMergeReceiver =  1 152528
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+merge Prepare 152528
+connector Prepare 152528
+Before handleRuntimeFilter 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+merge Prepare 152528
 inner join prepare
-connector Prepare 162728
-connector Prepare 162728
+connector Prepare 152528
 inner join prepare
-connector Prepare 162728
-PreScope 0 1 0
-merge Prepare 162728
-merge Prepare 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-merge Prepare 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-PreScope 0 7 0
-merge Prepare 162728
-PreScope 1 7 0
-PreScope 2 7 0
-PreScope 3 7 2
-PreScope 4 7 0
-PreScope 5 7 0
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-PreScope 6 7 0
-merge Prepare 162728
-connector Prepare 162728
-connector Prepare 162728
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
+aliveMergeReceiver =  3 152528
+connector Prepare 152528
+connector Prepare 152528
 inner join prepare
-connector Prepare 162728
-Before handleRuntimeFilter 162728
+connector Prepare 152528
 inner join prepare
-connector Prepare 162728
-PreScope 0 1 0
-merge Prepare 162728
-merge Prepare 162728
-aliveMergeReceiver =  1 162728
+merge Prepare 152528
+connector Prepare 152528
+merge Prepare 152528
 inner join prepare
-connector Prepare 162728
-merge Prepare 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-connector Prepare 162728
-aliveMergeReceiver =  3 162728
-aliveMergeReceiver =  3 162728
-connector put bat into  0xc007667200 162728
-connector End 162728
-TableScan Free 162728
-connector Free 162728
-connector Free put nil into  0xc007667200 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector put bat into  0xc008ef3e60 162728
-connector put bat into  0xc007666d80 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector Free put nil into  0xc007666d80 162728
-aliveMergeReceiver =  1 162728
-connector put bat into  0xc007666480 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector Free put nil into  0xc007666480 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-merge End 162728
-aliveMergeReceiver =  1 162728
-merge Free 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector put bat into  0xc007666900 162728
-connector Free 162728
-aliveMergeReceiver =  1 162728
-connector Free put nil into  0xc008ef3e60 162728
-aliveMergeReceiver =  0 162728
-aliveMergeReceiver =  0 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-merge End 162728
-connector End 162728
-merge Free 162728
+connector Prepare 152528
+merge Prepare 152528
+merge Prepare 152528
+inner join prepare
+connector Prepare 152528
+Before handleRuntimeFilter 152528
+connector Prepare 152528
+inner join prepare
+merge Prepare 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+inner join prepare
+aliveMergeReceiver =  1 152528
+connector Prepare 152528
+aliveMergeReceiver =  1 152528
+connector Prepare 152528
+connector Prepare 152528
+connector Prepare 152528
+merge Prepare 152528
+connector Prepare 152528
+aliveMergeReceiver =  1 152528
+connector put bat into  0xc01309b020 152528
+connector End 152528
+aliveMergeReceiver =  1 152528
+TableScan Free 152528
+connector Free 152528
+connector Free put nil into  0xc01309b020 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+connector put bat into  0xc0205ad2c0 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+merge Free 152528
+aliveMergeReceiver =  1 152528
+connector put bat into  0xc0205ad6e0 152528
+connector Free 152528
+aliveMergeReceiver =  1 152528
+connector Free put nil into  0xc0205ad2c0 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector put bat into  0xc01309a060 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+connector put bat into  0xc0205adb60 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+goroutine 140176 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+merge Free 152528
+connector End 152528
+connector put bat into  0xc01309a4e0 152528
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc0205adb60 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+connector End 152528
+merge Free 152528
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc01309a060 152528
+aliveMergeReceiver =  1 152528
+merge End 152528
+connector Free 152528
+merge Free 152528
+connector Free put nil into  0xc0205ad6e0 152528
+connector Free 152528
+aliveMergeReceiver =  0 152528
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a6b2300, 0x0, {0x50a9c98?, 0xc01af26a00})
+merge End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+aliveMergeReceiver =  0 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).collectBuildBatches(0xc00a6b2300, 0xc00aa454a0, 0xc01af26a00?, {0x50a9c98, 0xc01af26a00}, 0xa8?)
+ReceiveFromSingleReg nil batch 152528
+connector Free put nil into  0xc01309a4e0 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+ReceiveFromSingleReg nil batch 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:194 +0x91
+merge End 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).build(0xc00a6b2300, 0xc00aa454a0, 0x783ae8e?, {0x50a9c98?, 0xc01af26a00?}, 0x18?)
+merge Free 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:359 +0x30
+ReceiveFromSingleReg nil batch 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*Argument).Call(0xc00aa454a0, 0xc0195a8c00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:99 +0x265
+github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch.(*Argument).Call(0xc007f385b0, 0xc0195a8c00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch/dispatch.go:117 +0x82
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0181c6120?, 0x2, 0x30?}, 0xc0195a8c00)
+aliveMergeReceiver =  1 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+aliveMergeReceiver =  0 152528
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00259cec0, 0xc017d44aa0?)
+merge End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+merge Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc017395e60, 0xc009e30d00)
+merge Free 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
 hashbuild sendFilter End
-connector Free 162728
-connector Free put nil into  0xc007666900 162728
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+ReceiveFromSingleReg nil batch 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+ReceiveFromSingleReg nil batch 152528
 hashbuild sendFilter End
+ReceiveFromSingleReg nil batch 152528
+hashbuild sendFilter End
+ReceiveFromSingleReg nil batch 152528
+hashbuild sendFilter End
+ReceiveFromSingleReg nil batch 152528
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140170
+ReceiveMessage  1
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140252 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc009433100, 0x0, {0x50a9c98?, 0xc01c5fcf80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).collectBuildBatches(0xc009433100, 0xc00bc824d0, 0xc01c5fcf80?, {0x50a9c98, 0xc01c5fcf80}, 0xa8?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:194 +0x91
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).build(0xc009433100, 0xc00bc824d0, 0x783ae8e?, {0x50a9c98?, 0xc01c5fcf80?}, 0x18?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:359 +0x30
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*Argument).Call(0xc00bc824d0, 0xc008182300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:99 +0x265
+github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch.(*Argument).Call(0xc00d00a8f0, 0xc008182300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch/dispatch.go:117 +0x82
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc01a2c8ab0?, 0x2, 0x30?}, 0xc008182300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192eaec0, 0xc01bd2acd0?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6b40, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+merge End 152528
+merge Free 152528
+ReceiveFromSingleReg nil batch 152528
+Finish handleRuntimeFilter 152528 3
+ReceiveFromSingleReg nil batch 152528
+TableScan Prepare 152528
+connector Prepare 152528
+ReceiveFromSingleReg nil batch 152528
+connector put bat into  0xc01309a420 152528
+ReceiveFromSingleReg nil batch 152528
+connector End 152528
+TableScan Free 152528
+connector Free 152528
+connector Free put nil into  0xc01309a420 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+ReceiveMessage  1
+ReceiveFromSingleReg nil batch 152528
+ReceiveFromSingleReg nil batch 152528
+Finish handleRuntimeFilter 152528 3
+TableScan Prepare 152528
+connector Prepare 152528
+ReceiveFromSingleReg nil batch 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140140
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140263 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a6b2400, 0x0, {0x50a9c98?, 0xc01af27280})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).collectBuildBatches(0xc00a6b2400, 0xc00e416dc0, 0xc01af27280?, {0x50a9c98, 0xc01af27280}, 0xa8?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:194 +0x91
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).build(0xc00a6b2400, 0xc00e416dc0, 0x783ae8e?, {0x50a9c98?, 0xc01af27280?}, 0x18?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:359 +0x30
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*Argument).Call(0xc00e416dc0, 0xc00811a600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:99 +0x265
+github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch.(*Argument).Call(0xc00ec12340, 0xc00811a600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch/dispatch.go:117 +0x82
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc007780990?, 0x2, 0x30?}, 0xc00811a600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc002801ec0, 0xc00b5eecd0?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6d80, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140139
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140158 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc007806000, 0x0, {0x50a9c98?, 0xc01491a7c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).collectBuildBatches(0xc007806000, 0xc00792c840, 0xc01491a7c0?, {0x50a9c98, 0xc01491a7c0}, 0xa8?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:194 +0x91
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*container).build(0xc007806000, 0xc00792c840, 0x783ae8e?, {0x50a9c98?, 0xc01491a7c0?}, 0x18?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:359 +0x30
+github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild.(*Argument).Call(0xc00792c840, 0xc017896900)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/hashbuild/build.go:99 +0x265
+github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch.(*Argument).Call(0xc0136269c0, 0xc017896900)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/dispatch/dispatch.go:117 +0x82
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0166a39e0?, 0x2, 0x30?}, 0xc017896900)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0026a8ec0, 0xc009226280?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d67e0, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140141
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140173 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a42d80, 0x1, {0x50a9c98?, 0xc01af26ac0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc017a42d80, {0x50a9c98, 0xc01af26ac0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01af26ac0?, {0x50a9c98, 0xc01af26ac0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc017160d20, 0xc0195a8600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7a40, 0xc0195a8600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0181c62d0?, 0x2, 0x30?}, 0xc0195a8600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0128e1ec0, 0xc017d44960?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7e60, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140170
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140249 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00ae6c7e0, 0x1, {0x50a9c98?, 0xc00bd0fa80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc00ae6c7e0, {0x50a9c98, 0xc00bd0fa80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc00bd0fa80?, {0x50a9c98, 0xc00bd0fa80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a9a0, 0xc002673b00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dd3e0, 0xc002673b00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc01a2c8c60?, 0x2, 0x30?}, 0xc002673b00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00267fec0, 0xc01bd2ab90?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7320, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140140
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140245 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a430e0, 0x1, {0x50a9c98?, 0xc01f06ab80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc017a430e0, {0x50a9c98, 0xc01f06ab80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01f06ab80?, {0x50a9c98, 0xc01f06ab80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a620, 0xc017896300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dd4a0, 0xc017896300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0166a3b90?, 0x2, 0x30?}, 0xc017896300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192dcec0, 0xc009226140?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7440, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140141
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140260 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a022120, 0x1, {0x50a9c98?, 0xc00bd0f9c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc00a022120, {0x50a9c98, 0xc00bd0f9c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc00bd0f9c0?, {0x50a9c98, 0xc00bd0f9c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a7e0, 0xc00811a000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dc060, 0xc00811a000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc007780b40?, 0x2, 0x30?}, 0xc00811a000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc007d25ec0, 0xc00b5eeb90?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7680, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+connector put bat into  0xc0205adaa0 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+connector End 152528
+TableScan Free 152528
 ReceiveMessage  1
 ReceiveMessage  1
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-hashbuild sendFilter End
-Finish handleRuntimeFilter 162728 3
-merge End 162728
-merge Free 162728
-connector put bat into  0xc008ef34a0 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-TableScan Prepare 162728
-connector Free 162728
-connector Free put nil into  0xc008ef34a0 162728
-Finish handleRuntimeFilter 162728 3
-connector Prepare 162728
-TableScan Prepare 162728
-connector Prepare 162728
-ReceiveMessage  1
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector put bat into  0xc0076663c0 162728
-connector End 162728
-TableScan Free 162728
-merge End 162728
-connector Free 162728
-connector Free put nil into  0xc0076663c0 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector End 162728
+Finish handleRuntimeFilter 152528 3
+connector put bat into  0xc014004720 152528
+ReceiveFromSingleReg nil batch 152528
+TableScan Prepare 152528
+Finish handleRuntimeFilter 152528 3
+connector Prepare 152528
+TableScan Prepare 152528
+aliveMergeReceiver =  1 152528
+connector Prepare 152528
+ReceiveFromSingleReg nil batch 152528
+connector End 152528
 inner join free
-connector Free 162728
-connector Free put nil into  0xc007dd6e40 162728
-aliveMergeReceiver =  2 162728
-merge Free 162728
-Finish handleRuntimeFilter 162728 3
-connector End 162728
+connector Free 152528
+connector Free put nil into  0xc014004720 152528
+connector put bat into  0xc01309a540 152528
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140139
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140247 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a022480, 0x1, {0x50a9c98?, 0xc01f06a7c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc00a022480, {0x50a9c98, 0xc01f06a7c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01f06a7c0?, {0x50a9c98, 0xc01f06a7c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc017160e00, 0xc002673500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+aliveMergeReceiver =  3 152528
+connector put bat into  0xc009e6c420 152528
+aliveMergeReceiver =  2 152528
+aliveMergeReceiver =  1 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7b00, 0xc002673500)
+connector put bat into  0xc0205adbc0 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+aliveMergeReceiver =  3 152528
+aliveMergeReceiver =  1 152528
+connector End 152528
 inner join free
-connector Free 162728
-connector Free put nil into  0xc007dd6de0 162728
-aliveMergeReceiver =  1 162728
-connector put bat into  0xc007dd6d80 162728
-hashbuild sendFilter End
-connector End 162728
-TableScan Prepare 162728
-connector put bat into  0xc0076664e0 162728
-aliveMergeReceiver =  1 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-ReceiveMessage  1
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc01a2c8b40?, 0x2, 0x30?}, 0xc002673500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192ddec0, 0xc01bd2aa50?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6000, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140140
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140243 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+connector put bat into  0xc0205adf80 152528
+connector Free 152528
+connector Free put nil into  0xc014004a20 152528
+connector End 152528
+runtime/debug.PrintStack()
+aliveMergeReceiver =  1 152528
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc0176f1680, 0x1, {0x50a9c98?, 0xc01c5fcdc0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc0176f1680, {0x50a9c98, 0xc01c5fcdc0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01c5fcdc0?, {0x50a9c98, 0xc01c5fcdc0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+TableScan Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc009dffce0, 0xc016ef6f00)
+aliveMergeReceiver =  1 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+connector Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc008719500, 0xc016ef6f00)
+connector Free put nil into  0xc0205adf80 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+ReceiveFromSingleReg nil batch 152528
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0166a3a70?, 0x2, 0x30?}, 0xc016ef6f00)
+connector put bat into  0xc0205ad620 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+connector End 152528
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc01b3cdec0, 0xc009226000?)
+TableScan Free 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+connector Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc00d313d40, 0xc009e30d00)
+connector Free put nil into  0xc0205ad620 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140141
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140248 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a0227e0, 0x1, {0x50a9c98?, 0xc01f06ad00})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc00a0227e0, {0x50a9c98, 0xc01f06ad00})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01f06ad00?, {0x50a9c98, 0xc01f06ad00})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc0093c9b20, 0xc002673800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7d40, 0xc002673800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc01a2c8bd0?, 0x2, 0x30?}, 0xc002673800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192e0ec0, 0xc01bd2aaf0?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6480, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140140
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140171 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a022000, 0x1, {0x50a9c98?, 0xc01f06a700})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc00a022000, {0x50a9c98, 0xc01f06a700})
+aliveMergeReceiver =  1 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+aliveMergeReceiver =  0 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01f06a700?, {0x50a9c98, 0xc01f06a700})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc007c462a0, 0xc0195a8000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc00baec180, 0xc0195a8000)
+merge End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+merge Free 152528
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0181c61b0?, 0x2, 0x30?}, 0xc0195a8000)
+ReceiveFromSingleReg nil batch 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192edec0, 0xc017d44780?)
+aliveMergeReceiver =  1 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+connector Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc008022000, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+connector Free put nil into  0xc0205adaa0 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+aliveMergeReceiver =  0 152528
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+merge End 152528
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+merge Free 152528
+ReceiveFromSingleReg nil batch 152528
+connector put bat into  0xc01309a2a0 152528
+aliveMergeReceiver =  1 152528
+ReceiveFromSingleReg nil batch 152528
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140170
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+aliveMergeReceiver =  1 152528
+goroutine 140259 [running]:
+connector put bat into  0xc009e7cc00 152528
+runtime/debug.Stack()
+ReceiveFromSingleReg nil batch 152528
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+connector put bat into  0xc0205ad920 152528
+runtime/debug.PrintStack()
+aliveMergeReceiver =  1 152528
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+aliveMergeReceiver =  1 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00ae6c900, 0x1, {0x50a9c98?, 0xc01f06ac40})
+connector End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
 inner join free
-connector Free 162728
-connector put bat into  0xc007666cc0 162728
-connector Free put nil into  0xc007dd6d80 162728
-connector End 162728
-TableScan Free 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector Free put nil into  0xc0076664e0 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector put bat into  0xc007666840 162728
-aliveMergeReceiver =  1 162728
-connector put bat into  0xc00d110360 162728
-aliveMergeReceiver =  1 162728
-connector End 162728
-TableScan Free 162728
-connector Free 162728
-connector Free put nil into  0xc007666840 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector End 162728
+connector Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc00ae6c900, {0x50a9c98, 0xc01f06ac40})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01f06ac40?, {0x50a9c98, 0xc01f06ac40})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+connector Free put nil into  0xc008afc780 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a700, 0xc0292b9800)
+aliveMergeReceiver =  2 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7f80, 0xc0292b9800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+ReceiveFromSingleReg nil batch 152528
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc007780ab0?, 0x2, 0x30?}, 0xc0292b9800)
+connector End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
 inner join free
-connector Free 162728
-connector Free put nil into  0xc007dd6840 162728
-aliveMergeReceiver =  2 162728
-connector put bat into  0xc007dd6660 162728
-connector put bat into  0xc007666960 162728
-connector End 162728
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0026a9ec0, 0xc00b5eeaf0?)
+connector put bat into  0xc008afc6c0 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+connector Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d77a0, 0xc009e30d00)
+ReceiveFromSingleReg nil batch 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+aliveMergeReceiver =  2 152528
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+aliveMergeReceiver =  1 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+ReceiveFromSingleReg nil batch 152528
+ReceiveFromSingleReg nil batch 152528
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+connector End 152528
 inner join free
-connector Free 162728
-connector Free 162728
-connector Free put nil into  0xc007666cc0 162728
-connector Free put nil into  0xc007dd6660 162728
-aliveMergeReceiver =  2 162728
-aliveMergeReceiver =  0 162728
-aliveMergeReceiver =  1 162728
-merge End 162728
-aliveMergeReceiver =  1 162728
-connector put bat into  0xc007666de0 162728
-connector End 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  3 162728
-merge Free 162728
-connector End 162728
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+connector Free 152528
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140139
+connector Free put nil into  0xc009e7cc00 152528
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+connector End 152528
+goroutine 140244 [running]:
 inner join free
-connector Free 162728
-connector Free put nil into  0xc00d110420 162728
-connector End 162728
+runtime/debug.Stack()
+connector Free 152528
+connector Free put nil into  0xc009e7ccc0 152528
+connector End 152528
 inner join free
-connector Free 162728
-connector Free put nil into  0xc00d1103c0 162728
-Finish handleRuntimeFilter 162728 3
-TableScan Prepare 162728
-aliveMergeReceiver =  2 162728
-connector Prepare 162728
-aliveMergeReceiver =  1 162728
-connector End 162728
+connector Free 152528
+connector End 152528
+connector Free put nil into  0xc009e7cc60 152528
+inner join free
+connector Free 152528
+connector Free put nil into  0xc009e6c480 152528
+aliveMergeReceiver =  1 152528
+connector put bat into  0xc01309a0c0 152528
+aliveMergeReceiver =  3 152528
+aliveMergeReceiver =  2 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc01309a0c0 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+merge Free 152528
+connector put bat into  0xc0205ad740 152528
+aliveMergeReceiver =  2 152528
+connector End 152528
+connector Free put nil into  0xc009e6c4e0 152528
+inner join free
+aliveMergeReceiver =  1 152528
+connector End 152528
 inner join free
 inner join free
-connector Free 162728
-connector Free 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-aliveMergeReceiver =  0 162728
-connector Free put nil into  0xc00d110360 162728
-merge End 162728
-connector Free put nil into  0xc007dd67e0 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector Free put nil into  0xc007666de0 162728
-merge Free 162728
-connector Free 162728
-aliveMergeReceiver =  0 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-merge End 162728
-merge Free 162728
-connector Free put nil into  0xc007666960 162728
-connector put bat into  0xc008ef3aa0 162728
-connector End 162728
-TableScan Free 162728
-connector Free 162728
-connector Free put nil into  0xc008ef3aa0 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector End 162728
+connector put bat into  0xc0205ad4a0 152528
+connector Free 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  1 152528
+connector Free put nil into  0xc008afc6c0 152528
+aliveMergeReceiver =  1 152528
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+aliveMergeReceiver =  1 152528
+runtime/debug.PrintStack()
+ReceiveFromSingleReg nil batch 152528
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+connector Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a0225a0, 0x1, {0x50a9c98?, 0xc01f06a880})
+connector Free put nil into  0xc009e6c420 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+aliveMergeReceiver =  0 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc00a0225a0, {0x50a9c98, 0xc01f06a880})
+merge End 152528
+connector End 152528
+connector put bat into  0xc0205ade00 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc0205ade00 152528
+aliveMergeReceiver =  1 152528
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc0205adbc0 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+connector Free 152528
+aliveMergeReceiver =  1 152528
+aliveMergeReceiver =  0 152528
+connector Free put nil into  0xc008afc720 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge End 152528
+merge Free 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+merge Free 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01f06a880?, {0x50a9c98, 0xc01f06a880})
+aliveMergeReceiver =  0 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+merge End 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763aa80, 0xc017896000)
+connector End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+aliveMergeReceiver =  1 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dd440, 0xc017896000)
+merge Free 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+aliveMergeReceiver =  0 152528
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0166a3b00?, 0x2, 0x30?}, 0xc017896000)
+merge End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+merge Free 152528
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00267eec0, 0xc0092260a0?)
+connector End 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc0205ad740 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc0205ad920 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+ReceiveFromSingleReg nil batch 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+merge Free 152528
+connector Free 152528
+connector End 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+connector Free put nil into  0xc0205ad4a0 152528
+merge Free 152528
 inner join free
-connector Free 162728
-connector Free put nil into  0xc0146c4300 162728
-aliveMergeReceiver =  2 162728
-connector End 162728
-inner join free
-connector Free 162728
-connector Free put nil into  0xc0146c42a0 162728
-connector put bat into  0xc0146c4240 162728
-connector End 162728
-inner join free
-connector Free 162728
-aliveMergeReceiver =  1 162728
-connector put bat into  0xc007666000 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector Free put nil into  0xc007666000 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector Free put nil into  0xc0146c4240 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector put bat into  0xc0076661e0 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector Free put nil into  0xc0076661e0 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector put bat into  0xc0076666c0 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector Free 162728
-merge Free 162728
-connector Free put nil into  0xc0076666c0 162728
-connector put bat into  0xc008ef3860 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector put bat into  0xc007666b40 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-connector End 162728
-merge Free 162728
-connector Free 162728
-connector Free put nil into  0xc007666b40 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-connector Free put nil into  0xc008ef3860 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
-aliveMergeReceiver =  1 162728
-aliveMergeReceiver =  0 162728
-merge End 162728
-merge Free 162728
+connector Free 152528
+connector Free put nil into  0xc014004900 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+merge Free 152528
+connector Free 152528
+connector Free put nil into  0xc01309a540 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+merge Free 152528
+aliveMergeReceiver =  0 152528
+merge End 152528
+connector End 152528
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6240, 0xc009e30d00)
+merge Free 152528
+connector Free 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140141
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140258 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a42ea0, 0x1, {0x50a9c98?, 0xc01491a880})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc017a42ea0, {0x50a9c98, 0xc01491a880})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01491a880?, {0x50a9c98, 0xc01491a880})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01841e2a0, 0xc0292b9500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0029b9080, 0xc0292b9500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc007780a20?, 0x2, 0x30?}, 0xc0292b9500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00267aec0, 0xc00b5eea50?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc00d7eb560, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140139
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140171 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a022000, 0x0, {0x50a9c98?, 0xc020066340})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc007c462a0, 0xc0195a8000)
+connector Free put nil into  0xc01309a2a0 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+aliveMergeReceiver =  0 152528
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc00baec180, 0xc0195a8000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+merge End 152528
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0181c61b0?, 0x2, 0x30?}, 0xc0195a8000)
+merge Free 152528
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192edec0, 0xc017d44780?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc008022000, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140170
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140173 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a42d80, 0x0, {0x50a9c98?, 0xc01af26ac0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc017160d20, 0xc0195a8600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7a40, 0xc0195a8600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0181c62d0?, 0x2, 0x30?}, 0xc0195a8600)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0128e1ec0, 0xc017d44960?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7e60, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140170
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140260 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a022120, 0x0, {0x50a9c98?, 0xc00bd0f9c0})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a7e0, 0xc00811a000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dc060, 0xc00811a000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc007780b40?, 0x2, 0x30?}, 0xc00811a000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc007d25ec0, 0xc00b5eeb90?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7680, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140139
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140245 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a430e0, 0x0, {0x50a9c98?, 0xc01f06ab80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a620, 0xc017896300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dd4a0, 0xc017896300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0166a3b90?, 0x2, 0x30?}, 0xc017896300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192dcec0, 0xc009226140?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7440, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140141
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140249 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00ae6c7e0, 0x0, {0x50a9c98?, 0xc00bd0fa80})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a9a0, 0xc002673b00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dd3e0, 0xc002673b00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc01a2c8c60?, 0x2, 0x30?}, 0xc002673b00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00267fec0, 0xc01bd2ab90?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d7320, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140140
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140258 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a42ea0, 0x0, {0x50a9c98?, 0xc00ced1680})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01841e2a0, 0xc0292b9500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0029b9080, 0xc0292b9500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc007780a20?, 0x2, 0x30?}, 0xc0292b9500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00267aec0, 0xc00b5eea50?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc00d7eb560, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140139
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140259 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00ae6c900, 0x0, {0x50a9c98?, 0xc01f06ac40})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763a700, 0xc0292b9800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7f80, 0xc0292b9800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc007780ab0?, 0x2, 0x30?}, 0xc0292b9800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0026a9ec0, 0xc00b5eeaf0?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d77a0, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140139
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140248 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a0227e0, 0x0, {0x50a9c98?, 0xc01f06ad00})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc0093c9b20, 0xc002673800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7d40, 0xc002673800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc01a2c8bd0?, 0x2, 0x30?}, 0xc002673800)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192e0ec0, 0xc01bd2aaf0?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6480, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140140
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140243 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc0176f1680, 0x0, {0x50a9c98?, 0xc01c5fd280})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc009dffce0, 0xc016ef6f00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc008719500, 0xc016ef6f00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0166a3a70?, 0x2, 0x30?}, 0xc016ef6f00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc01b3cdec0, 0xc009226000?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc00d313d40, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140141
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140247 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a022480, 0x0, {0x50a9c98?, 0xc00ced1480})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc017160e00, 0xc002673500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7b00, 0xc002673500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc01a2c8b40?, 0x2, 0x30?}, 0xc002673500)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc0192ddec0, 0xc01bd2aa50?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6000, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140140
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140244 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc00a0225a0, 0x0, {0x50a9c98?, 0xc01f06a880})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc01763aa80, 0xc017896000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176dd440, 0xc017896000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0166a3b00?, 0x2, 0x30?}, 0xc017896000)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00267eec0, 0xc0092260a0?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0176d6240, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140141
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140172 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a42c60, 0x1, {0x50a9c98?, 0xc01af26940})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).receiveBatch(0xc017a42c60, {0x50a9c98, 0xc01af26940})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:142 +0x47
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*container).build(0xc01af26940?, {0x50a9c98, 0xc01af26940})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:166 +0x45
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc002af22a0, 0xc0195a8300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:72 +0x2d3
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7980, 0xc0195a8300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0181c6240?, 0x2, 0x30?}, 0xc0195a8300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00e562ec0, 0xc017d44870?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0177c4000, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140170
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
+goroutine 140172 [running]:
+runtime/debug.Stack()
+	/usr/local/go/src/runtime/debug/stack.go:24 +0x5e
+runtime/debug.PrintStack()
+	/usr/local/go/src/runtime/debug/stack.go:16 +0x13
+github.com/matrixorigin/matrixone/pkg/sql/colexec.(*ReceiverOperator).ReceiveFromSingleReg(0xc017a42c60, 0x0, {0x50a9c98?, 0xc01af26940})
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/receiver_operator.go:63 +0x22a
+github.com/matrixorigin/matrixone/pkg/sql/colexec/join.(*Argument).Call(0xc002af22a0, 0xc0195a8300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/join/join.go:84 +0x22d
+github.com/matrixorigin/matrixone/pkg/sql/colexec/connector.(*Argument).Call(0xc0176a7980, 0xc0195a8300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/colexec/connector/connector.go:45 +0x6e
+github.com/matrixorigin/matrixone/pkg/vm.Run({0xc0181c6240?, 0x2, 0x30?}, 0xc0195a8300)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/vm.go:135 +0x122
+github.com/matrixorigin/matrixone/pkg/vm/pipeline.(*Pipeline).MergeRun(0xc00e562ec0, 0xc017d44870?)
+	/go/src/github.com/matrixorigin/matrixone/pkg/vm/pipeline/pipeline.go:156 +0x185
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun(0xc0177c4000, 0xc009e30d00)
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:249 +0x371
+github.com/matrixorigin/matrixone/pkg/sql/compile.(*Scope).MergeRun.func1()
+	/go/src/github.com/matrixorigin/matrixone/pkg/sql/compile/scope.go:227 +0xc5
+github.com/panjf2000/ants/v2.(*goWorker).run.func1()
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:67 +0x8d
+created by github.com/panjf2000/ants/v2.(*goWorker).run in goroutine 140170
+	/go/pkg/mod/github.com/panjf2000/ants/v2@v2.7.4/worker.go:48 +0x5c
 
 Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
   PreScopes: {
@@ -926,26 +1283,24 @@ Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
     DataSource: mo_catalog.mo_account[account_id account_name status version suspended_time],
   }
 }
-PreScope 0 1 0
 merge Prepare 42949672950
 aliveMergeReceiver =  1 42949672950
-PreScope 0 1 2
 connector Prepare 42949672950
 aliveMergeReceiver =  1 42949672950
 Before handleRuntimeFilter 42949672950
 Finish handleRuntimeFilter 42949672950 1
 TableScan Prepare 42949672950
 connector Prepare 42949672950
-connector put bat into  0xc00a3f2a80 42949672950
+connector put bat into  0xc016631e00 42949672950
 connector End 42949672950
 TableScan Free 42949672950
 connector Free 42949672950
-connector Free put nil into  0xc00a3f2a80 42949672950
+connector Free put nil into  0xc016631e00 42949672950
 aliveMergeReceiver =  1 42949672950
 aliveMergeReceiver =  0 42949672950
-connector put bat into  0xc00a3f2ae0 42949672950
+connector put bat into  0xc016631e60 42949672950
 connector Free 42949672950
-connector Free put nil into  0xc00a3f2ae0 42949672950
+connector Free put nil into  0xc016631e60 42949672950
 aliveMergeReceiver =  1 42949672950
 aliveMergeReceiver =  0 42949672950
 merge End 42949672950
@@ -959,26 +1314,24 @@ Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
     DataSource: mo_catalog.mo_user[user_id user_name authentication_string default_role],
   }
 }
-PreScope 0 1 0
 merge Prepare 42949672950
 aliveMergeReceiver =  1 42949672950
-PreScope 0 1 2
 connector Prepare 42949672950
 aliveMergeReceiver =  1 42949672950
 Before handleRuntimeFilter 42949672950
 Finish handleRuntimeFilter 42949672950 1
 TableScan Prepare 42949672950
 connector Prepare 42949672950
-connector put bat into  0xc00a094420 42949672950
+connector put bat into  0xc00ab653e0 42949672950
 connector End 42949672950
 TableScan Free 42949672950
 connector Free 42949672950
-connector Free put nil into  0xc00a094420 42949672950
+connector Free put nil into  0xc00ab653e0 42949672950
 aliveMergeReceiver =  1 42949672950
 aliveMergeReceiver =  0 42949672950
-connector put bat into  0xc00a094480 42949672950
+connector put bat into  0xc00ab65440 42949672950
 connector Free 42949672950
-connector Free put nil into  0xc00a094480 42949672950
+connector Free put nil into  0xc00ab65440 42949672950
 aliveMergeReceiver =  1 42949672950
 aliveMergeReceiver =  0 42949672950
 merge End 42949672950
@@ -989,19 +1342,18 @@ Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
   DataSource: mo_catalog.mo_role[role_id role_name],
 }
-PreScope 0 1 2
 merge Prepare 42949672950
 aliveMergeReceiver =  1 42949672950
 Before handleRuntimeFilter 42949672950
 Finish handleRuntimeFilter 42949672950 1
 TableScan Prepare 42949672950
 connector Prepare 42949672950
-connector put bat into  0xc00b4e57a0 42949672950
+connector put bat into  0xc009c482a0 42949672950
 connector End 42949672950
 TableScan Free 42949672950
-connector Free 42949672950
-connector Free put nil into  0xc00b4e57a0 42949672950
 aliveMergeReceiver =  1 42949672950
+connector Free 42949672950
+connector Free put nil into  0xc009c482a0 42949672950
 aliveMergeReceiver =  0 42949672950
 merge End 42949672950
 merge Free 42949672950
@@ -1011,1158 +1363,357 @@ Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
   DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
 }
-PreScope 0 1 2
 merge Prepare 42949672950
 aliveMergeReceiver =  1 42949672950
 Before handleRuntimeFilter 42949672950
 Finish handleRuntimeFilter 42949672950 1
 TableScan Prepare 42949672950
 connector Prepare 42949672950
-connector put bat into  0xc0081e88a0 42949672950
+connector put bat into  0xc009c496e0 42949672950
 connector End 42949672950
 TableScan Free 42949672950
 connector Free 42949672950
-connector Free put nil into  0xc0081e88a0 42949672950
+connector Free put nil into  0xc009c496e0 42949672950
 aliveMergeReceiver =  1 42949672950
 aliveMergeReceiver =  0 42949672950
 merge End 42949672950
 merge Free 42949672950
-{"level":"INFO","time":"2024/05/07 09:07:30.784073 +0000","name":"cn-service.frontend","caller":"frontend/session.go:1539","msg":"{account sys:dump:moadmin -- 0:1:0}","uuid":"32306635-6165-3935-3465-376562393265","session_info":"connectionId 1629|10.144.0.12:46425|{account sys:dump: -- 0:0:0}|goRoutineId 137408|018f524e-db5c-75f3-a0fb-155bc28a5b5c","session_id":"018f524e-db5c-75f3-a0fb-155bc28a5b5c"}
+{"level":"INFO","time":"2024/05/07 11:12:41.113673 +0000","name":"cn-service.frontend","caller":"frontend/session.go:1539","msg":"{account sys:dump:moadmin -- 0:1:0}","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1527|10.144.0.12:25728|{account sys:dump: -- 0:0:0}|goRoutineId 140142|018f52c1-7496-7f1b-b19c-e2ccea6ad6eb","session_id":"018f52c1-7496-7f1b-b19c-e2ccea6ad6eb"}
 
 Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
   Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
   DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
 }
-PreScope 0 1 2
 merge Prepare 42949672950
 aliveMergeReceiver =  1 42949672950
 Before handleRuntimeFilter 42949672950
 Finish handleRuntimeFilter 42949672950 1
 TableScan Prepare 42949672950
 connector Prepare 42949672950
-connector put bat into  0xc0081e9b00 42949672950
+connector put bat into  0xc00a6c0540 42949672950
 connector End 42949672950
 TableScan Free 42949672950
 connector Free 42949672950
-connector Free put nil into  0xc0081e9b00 42949672950
+connector Free put nil into  0xc00a6c0540 42949672950
 aliveMergeReceiver =  1 42949672950
 aliveMergeReceiver =  0 42949672950
 merge End 42949672950
 merge Free 42949672950
-{"level":"INFO","time":"2024/05/07 09:07:30.784738 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:490","msg":"mo accept connection, time cost of Created: 104.185µs, Establish: 3.054013ms, UpgradeTLS: 0s, Authenticate: 3.046518ms, SendErrPacket: 0s, SendOKPacket: 24.325µs, CheckTenant: 758.787µs, CheckUser: 460.977µs, CheckRole: 467.72µs, CheckDbName: 0s, InitGlobalSysVar: 577.657µs","uuid":"32306635-6165-3935-3465-376562393265","session_info":"connectionId 1629|10.144.0.12:46425|{account sys:dump: -- 0:0:0}|goRoutineId 137408|018f524e-db5c-75f3-a0fb-155bc28a5b5c"}
-{"level":"INFO","time":"2024/05/07 09:07:30.785652 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:264","msg":"mo received first request","uuid":"32306635-6165-3935-3465-376562393265","session_info":"connectionId 1629|10.144.0.12:46425|{account sys:dump:moadmin -- 0:1:0}|goRoutineId 137408|018f524e-db5c-75f3-a0fb-155bc28a5b5c"}
-{"level":"ERROR","time":"2024/05/07 09:07:30.785760 +0000","caller":"frontend/routine_manager.go:346","msg":"error: internal error: Unknown connection id 1560","span":{"trace_id":"7ac63c4e-eb14-f8a6-623f-0691fe710b68","span_id":"c95a55d3fb257e3d"}}
-{"level":"ERROR","time":"2024/05/07 09:07:30.785795 +0000","name":"cn-service.frontend","caller":"frontend/txn.go:876","msg":"internal error: Unknown connection id 1560","uuid":"32306635-6165-3935-3465-376562393265","session_info":"connectionId 1629|10.144.0.12:46425|{account sys:dump:moadmin -- 0:1:0}|goRoutineId 137408|018f524e-db5c-75f3-a0fb-155bc28a5b5c","session_id":"018f524e-db5c-75f3-a0fb-155bc28a5b5c","statement_id":"018f524e-db61-7a38-a899-5cba78e49029"}
-{"level":"ERROR","time":"2024/05/07 09:07:30.785819 +0000","name":"cn-service.frontend","caller":"frontend/util.go:498","msg":"query trace status","uuid":"32306635-6165-3935-3465-376562393265","connection_id":1629,"statement":"KILL QUERY 1560","status":"fail","error":"internal error: Unknown connection id 1560","span":{"trace_id":"7ac63c4e-eb14-f8a6-623f-0691fe710b68","span_id":"c95a55d3fb257e3d"},"session_info":"connectionId 1629|10.144.0.12:46425|{account sys:dump:moadmin -- 0:1:0}|goRoutineId 137408|018f524e-db5c-75f3-a0fb-155bc28a5b5c","session_id":"018f524e-db5c-75f3-a0fb-155bc28a5b5c","statement_id":"018f524e-db61-7a38-a899-5cba78e49029"}
-{"level":"INFO","time":"2024/05/07 09:07:30.786829 +0000","caller":"frontend/routine.go:342","msg":"set query status on the connection 1629"}
-{"level":"INFO","time":"2024/05/07 09:07:31.278944 +0000","caller":"blockio/pipeline.go:495","msg":"SelectivityStats: BLK[0/0=0.0000] COL[75/113=0.6637] RDF[2/3=0.6667,982/1540=0.6377]RDD[0s/0s/0s/0]"}
-{"level":"WARN","time":"2024/05/07 09:07:32.237197 +0000","name":"cn-service.morpc","caller":"morpc/backend.go:466","msg":"system is busy, write loop schedule interval is too large","uuid":"32306635-6165-3935-3465-376562393265","interval":"5.878662977s","last-ping-trigger-time":"0001/01/01 00:00:00.000000 +0000","ping-interval":"24s"}
+{"level":"INFO","time":"2024/05/07 11:12:41.114335 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:490","msg":"mo accept connection, time cost of Created: 90.991µs, Establish: 2.743672ms, UpgradeTLS: 0s, Authenticate: 2.738873ms, SendErrPacket: 0s, SendOKPacket: 24.325µs, CheckTenant: 663.059µs, CheckUser: 402.92µs, CheckRole: 342.717µs, CheckDbName: 0s, InitGlobalSysVar: 583.641µs","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1527|10.144.0.12:25728|{account sys:dump: -- 0:0:0}|goRoutineId 140142|018f52c1-7496-7f1b-b19c-e2ccea6ad6eb"}
+{"level":"INFO","time":"2024/05/07 11:12:41.115118 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:264","msg":"mo received first request","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1527|10.144.0.12:25728|{account sys:dump:moadmin -- 0:1:0}|goRoutineId 140142|018f52c1-7496-7f1b-b19c-e2ccea6ad6eb"}
+{"level":"ERROR","time":"2024/05/07 11:12:41.115218 +0000","caller":"frontend/routine_manager.go:346","msg":"error: internal error: Unknown connection id 1415","span":{"trace_id":"18d3bfcb-ead7-e82f-13a1-b37e52f649d5","span_id":"240be608c5857d62"}}
+{"level":"ERROR","time":"2024/05/07 11:12:41.115258 +0000","name":"cn-service.frontend","caller":"frontend/txn.go:876","msg":"internal error: Unknown connection id 1415","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1527|10.144.0.12:25728|{account sys:dump:moadmin -- 0:1:0}|goRoutineId 140142|018f52c1-7496-7f1b-b19c-e2ccea6ad6eb","session_id":"018f52c1-7496-7f1b-b19c-e2ccea6ad6eb","statement_id":"018f52c1-749b-7981-95fd-13cb43def6e4"}
+{"level":"ERROR","time":"2024/05/07 11:12:41.115283 +0000","name":"cn-service.frontend","caller":"frontend/util.go:498","msg":"query trace status","uuid":"34323564-3035-3739-6638-343835663837","connection_id":1527,"statement":"KILL QUERY 1415","status":"fail","error":"internal error: Unknown connection id 1415","span":{"trace_id":"18d3bfcb-ead7-e82f-13a1-b37e52f649d5","span_id":"240be608c5857d62"},"session_info":"connectionId 1527|10.144.0.12:25728|{account sys:dump:moadmin -- 0:1:0}|goRoutineId 140142|018f52c1-7496-7f1b-b19c-e2ccea6ad6eb","session_id":"018f52c1-7496-7f1b-b19c-e2ccea6ad6eb","statement_id":"018f52c1-749b-7981-95fd-13cb43def6e4"}
+{"level":"INFO","time":"2024/05/07 11:12:41.116178 +0000","caller":"frontend/routine.go:342","msg":"set query status on the connection 1527"}
 
-Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
-    PreScopes: {
-    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
-    DataSource: [],
-  }
-  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
-  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
-  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
-  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
-  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
-  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
-  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
 }
-PreScope 0 8 0
-PreScope 1 8 0
-PreScope 2 8 0
-PreScope 3 8 0
-PreScope 4 8 0
-PreScope 5 8 0
-PreScope 6 8 0
-PreScope 7 8 0
-merge Prepare 16249
-aliveMergeReceiver =  8 16249
-merge Prepare 16249
-merge Prepare 16249
-PreScope 0 1 1
-merge Prepare 16249
-merge Prepare 16249
-connector Prepare 16249
-connector Prepare 16249
-merge Prepare 16249
-merge Prepare 16249
-connector Prepare 16249
-connector Prepare 16249
-aliveMergeReceiver =  1 16249
-merge Prepare 16249
-aliveMergeReceiver =  1 16249
-aliveMergeReceiver =  1 16249
-merge Prepare 16249
-aliveMergeReceiver =  1 16249
-connector Prepare 16249
-connector Prepare 16249
-aliveMergeReceiver =  1 16249
-connector Prepare 16249
-aliveMergeReceiver =  1 16249
-aliveMergeReceiver =  1 16249
-connector Prepare 16249
-aliveMergeReceiver =  1 16249
-aliveMergeReceiver =  0 16249
-merge End 16249
-connector End 16249
-aliveMergeReceiver =  0 16249
-aliveMergeReceiver =  0 16249
-merge Free 16249
-merge End 16249
-connector End 16249
-merge Free 16249
-connector Free 16249
-aliveMergeReceiver =  0 16249
-connector Free 16249
-merge End 16249
-connector Free put nil into  0xc00a095620 16249
-aliveMergeReceiver =  0 16249
-merge End 16249
-aliveMergeReceiver =  0 16249
-merge End 16249
-connector Free put nil into  0xc00a095800 16249
-merge End 16249
-aliveMergeReceiver =  7 16249
-aliveMergeReceiver =  6 16249
-connector End 16249
-merge Free 16249
-connector End 16249
-merge Free 16249
-connector Free 16249
-connector Free put nil into  0xc00a095680 16249
-aliveMergeReceiver =  5 16249
-aliveMergeReceiver =  0 16249
-merge End 16249
-connector Free 16249
-connector Free put nil into  0xc00a0957a0 16249
-connector End 16249
-merge Free 16249
-connector Free 16249
-connector Free put nil into  0xc00a0951a0 16249
-aliveMergeReceiver =  4 16249
-aliveMergeReceiver =  3 16249
-connector End 16249
-merge Free 16249
-connector End 16249
-merge Free 16249
-connector Free 16249
-connector Free put nil into  0xc00a095200 16249
-aliveMergeReceiver =  2 16249
-connector Free 16249
-connector Free put nil into  0xc00a0954a0 16249
-aliveMergeReceiver =  1 16249
-aliveMergeReceiver =  1 16249
-aliveMergeReceiver =  0 16249
-merge End 16249
-connector put bat into  0xc00a095020 16249
-connector End 16249
-merge Free 16249
-connector Free 16249
-connector Free put nil into  0xc00a095020 16249
-aliveMergeReceiver =  1 16249
-aliveMergeReceiver =  0 16249
-merge End 16249
-merge Free 16249
+merge Prepare 42949672950
+aliveMergeReceiver =  1 42949672950
+Before handleRuntimeFilter 42949672950
+Finish handleRuntimeFilter 42949672950 1
+TableScan Prepare 42949672950
+connector Prepare 42949672950
+connector put bat into  0xc007bdc300 42949672950
+connector End 42949672950
+TableScan Free 42949672950
+connector Free 42949672950
+connector Free put nil into  0xc007bdc300 42949672950
+aliveMergeReceiver =  1 42949672950
+aliveMergeReceiver =  0 42949672950
+merge End 42949672950
+merge Free 42949672950
+{"level":"INFO","time":"2024/05/07 11:12:41.292289 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:490","msg":"mo accept connection, time cost of Created: 76.022µs, Establish: 691.294µs, UpgradeTLS: 0s, Authenticate: 687.106µs, SendErrPacket: 0s, SendOKPacket: 21.06µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 653.232µs","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1528|10.158.10.185:45934|{account sys:da2c992a-ddba-4750-b54a-6e37af927c6d: -- 0:0:0}|goRoutineId 140143|018f52c1-7548-7252-84a6-72f3f6a27542"}
+{"level":"INFO","time":"2024/05/07 11:12:41.294528 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:264","msg":"mo received first request","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1528|10.158.10.185:45934|{account sys:da2c992a-ddba-4750-b54a-6e37af927c6d:moadmin -- 0:4294967295:0}|goRoutineId 140143|018f52c1-7548-7252-84a6-72f3f6a27542"}
 
 Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
   Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
   DataSource: [],
 }
-PreScope 0 1 1
-merge Prepare 429496729531
-aliveMergeReceiver =  1 429496729531
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
-  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
-}
-PreScope 0 1 2
-merge Prepare 42949672950
-aliveMergeReceiver =  1 42949672950
-connector Prepare 429496729531
-Before handleRuntimeFilter 42949672950
-Finish handleRuntimeFilter 42949672950 1
-connector put bat into  0xc009a21020 429496729531
-connector End 429496729531
-connector Free 429496729531
-connector Free put nil into  0xc009a21020 429496729531
-aliveMergeReceiver =  1 429496729531
-aliveMergeReceiver =  0 429496729531
-merge End 429496729531
-merge Free 429496729531
-TableScan Prepare 42949672950
-connector Prepare 42949672950
-connector put bat into  0xc00859dda0 42949672950
-connector End 42949672950
-TableScan Free 42949672950
-connector Free 42949672950
-connector Free put nil into  0xc00859dda0 42949672950
-aliveMergeReceiver =  1 42949672950
-aliveMergeReceiver =  0 42949672950
-merge End 42949672950
-merge Free 42949672950
-{"level":"INFO","time":"2024/05/07 09:07:34.727142 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:490","msg":"mo accept connection, time cost of Created: 119.644µs, Establish: 983.238µs, UpgradeTLS: 0s, Authenticate: 978.59µs, SendErrPacket: 0s, SendOKPacket: 21.841µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 942.433µs","uuid":"32306635-6165-3935-3465-376562393265","session_info":"connectionId 1630|10.158.10.166:36690|{account sys:fd02643a-2a84-4097-a914-129880ae9dd7: -- 0:0:0}|goRoutineId 137556|018f524e-eac5-73e2-97bb-e40cec6f2313"}
-{"level":"INFO","time":"2024/05/07 09:07:34.727328 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:264","msg":"mo received first request","uuid":"32306635-6165-3935-3465-376562393265","session_info":"connectionId 1630|10.158.10.166:36690|{account sys:fd02643a-2a84-4097-a914-129880ae9dd7:moadmin -- 0:4294967295:0}|goRoutineId 137556|018f524e-eac5-73e2-97bb-e40cec6f2313"}
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge top -> projection -> projection -> connect to MergeReceiver 1]
-    PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> top -> connect to MergeReceiver 0]
-    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
-  }
-}
-PreScope 0 1 0
-merge Prepare 162732
-aliveMergeReceiver =  1 162732
-PreScope 0 1 2
-connector Prepare 162732
-aliveMergeReceiver =  1 162732
-Before handleRuntimeFilter 162732
-Finish handleRuntimeFilter 162732 1
-TableScan Prepare 162732
-connector Prepare 162732
-connector put bat into  0xc00b179ce0 162732
-connector End 162732
-TableScan Free 162732
-connector Free 162732
-connector Free put nil into  0xc00b179ce0 162732
-aliveMergeReceiver =  1 162732
-aliveMergeReceiver =  0 162732
-connector put bat into  0xc00b179d40 162732
-connector Free 162732
-connector Free put nil into  0xc00b179d40 162732
+merge Prepare 4294967295116
+aliveMergeReceiver =  1 4294967295116
+connector Prepare 4294967295116
+connector put bat into  0xc007bdcd20 4294967295116
+connector End 4294967295116
+connector Free 4294967295116
+connector Free put nil into  0xc007bdcd20 4294967295116
+aliveMergeReceiver =  1 4294967295116
+aliveMergeReceiver =  0 4294967295116
+merge End 4294967295116
+merge Free 4294967295116
 
 Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
   Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
   DataSource: [],
 }
-PreScope 0 1 1
 merge Prepare 42949672952
-aliveMergeReceiver =  1 162732
-aliveMergeReceiver =  0 162732
-merge End 162732
-merge Free 162732
+aliveMergeReceiver =  1 42949672952
 connector Prepare 42949672952
-connector put bat into  0xc00e3ac000 42949672952
+connector put bat into  0xc00b348b40 42949672952
 connector End 42949672952
 connector Free 42949672952
-aliveMergeReceiver =  1 42949672952
+connector Free put nil into  0xc00b348b40 42949672952
 aliveMergeReceiver =  1 42949672952
 aliveMergeReceiver =  0 42949672952
 merge End 42949672952
 merge Free 42949672952
-connector Free put nil into  0xc00e3ac000 42949672952
-{"level":"INFO","time":"2024/05/07 09:07:34.728396 +0000","caller":"frontend/routine.go:342","msg":"set query status on the connection 1630"}
 
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> projection -> insert]
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
-merge Prepare 162734
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_cron_task[cron_task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option cron_expr next_time trigger_times create_at update_at],
 }
-PreScope 0 1 0
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-merge Prepare 162734
+merge Prepare 1509117
+aliveMergeReceiver =  1 1509117
+Before handleRuntimeFilter 1509117
+Finish handleRuntimeFilter 1509117 1
+TableScan Prepare 1509117
+connector Prepare 1509117
+connector put bat into  0xc009956180 1509117
+connector End 1509117
+TableScan Free 1509117
+connector Free 1509117
+connector Free put nil into  0xc009956180 1509117
+aliveMergeReceiver =  1 1509117
+aliveMergeReceiver =  0 1509117
+merge End 1509117
+merge Free 1509117
 
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> dispatch to all of MergeReceiver [unknown, unknown, unknown, unknown, unknown, unknown].]
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> projection -> lockop -> connect to MergeReceiver 0]
-  DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at __mo_rowid],
-}
-PreScope 0 1 2
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-merge Prepare 162734
-connector Prepare 162734
-aliveMergeReceiver =  1 162734
-Before handleRuntimeFilter 162734
-Finish handleRuntimeFilter 162734 1
-
-Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
-  PreScopes: {
-  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
     PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-8982-73a2-9b63-ebcd4c99d036[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
-    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
-      PreScopes: {
-      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
-    }
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
   }
 }
-PreScope 0 1 2
+merge Prepare 15283
+aliveMergeReceiver =  1 15283
+connector Prepare 15283
+aliveMergeReceiver =  1 15283
+Before handleRuntimeFilter 15283
+Finish handleRuntimeFilter 15283 1
+TableScan Prepare 15283
+connector Prepare 15283
+connector put bat into  0xc00bc05860 15283
+connector End 15283
+TableScan Free 15283
+connector Free 15283
+connector Free put nil into  0xc00bc05860 15283
+aliveMergeReceiver =  1 15283
+aliveMergeReceiver =  0 15283
+connector put bat into  0xc00bc058c0 15283
+connector Free 15283
+connector Free put nil into  0xc00bc058c0 15283
+aliveMergeReceiver =  1 15283
+aliveMergeReceiver =  0 15283
+merge End 15283
+merge Free 15283
+{"level":"INFO","time":"2024/05/07 11:12:41.296675 +0000","caller":"frontend/routine.go:342","msg":"set query status on the connection 1528"}
 
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-merge Prepare 162734
-
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
-merge Prepare 162734
-
-Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+merge Prepare 4294967295119
+aliveMergeReceiver =  1 4294967295119
+connector Prepare 4294967295119
+connector put bat into  0xc015490060 4294967295119
+connector End 4294967295119
+connector Free 4294967295119
+connector Free put nil into  0xc015490060 4294967295119
+aliveMergeReceiver =  1 4294967295119
+aliveMergeReceiver =  0 4294967295119
+merge End 4294967295119
+merge Free 4294967295119
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
     PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-897d-7543-8063-c4d959a9cd69[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
-    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
-      PreScopes: {
-      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
-    }
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
   }
 }
-PreScope 0 1 2
-merge Prepare 162734
-TableScan Prepare 162734
-aliveMergeReceiver =  1 162734
+merge Prepare 1509120
+aliveMergeReceiver =  1 1509120
+connector Prepare 1509120
+aliveMergeReceiver =  1 1509120
+Before handleRuntimeFilter 1509120
+Finish handleRuntimeFilter 1509120 1
+TableScan Prepare 1509120
+connector Prepare 1509120
+connector End 1509120
+TableScan Free 1509120
+connector Free 1509120
+connector Free put nil into  0xc00982bc20 1509120
+aliveMergeReceiver =  0 1509120
+connector End 1509120
+connector Free 1509120
+connector Free put nil into  0xc00982bc80 1509120
+aliveMergeReceiver =  0 1509120
+merge End 1509120
+merge Free 1509120
+{"level":"INFO","time":"2024/05/07 11:12:43.058368 +0000","caller":"blockio/pipeline.go:495","msg":"SelectivityStats: BLK[0/0=0.0000] COL[193/244=0.7910] RDF[2/3=0.6667,766/1369=0.5595]RDD[0s/0s/0s/0]"}
 
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_catalog.mo_mysql_compatibility_mode[account_id variable_name variable_value system_variables],
 }
-PreScope 0 1 0
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
+merge Prepare 42949672950
+aliveMergeReceiver =  1 42949672950
+Before handleRuntimeFilter 42949672950
+Finish handleRuntimeFilter 42949672950 1
+TableScan Prepare 42949672950
+connector Prepare 42949672950
+connector put bat into  0xc025a34420 42949672950
+connector End 42949672950
+TableScan Free 42949672950
+connector Free 42949672950
+connector Free put nil into  0xc025a34420 42949672950
+aliveMergeReceiver =  1 42949672950
+aliveMergeReceiver =  0 42949672950
+merge End 42949672950
+merge Free 42949672950
+{"level":"INFO","time":"2024/05/07 11:12:44.293232 +0000","name":"cn-service.frontend","caller":"frontend/routine_manager.go:490","msg":"mo accept connection, time cost of Created: 97.484µs, Establish: 1.040913ms, UpgradeTLS: 0s, Authenticate: 1.033629ms, SendErrPacket: 0s, SendOKPacket: 20.829µs, CheckTenant: 0s, CheckUser: 0s, CheckRole: 0s, CheckDbName: 0s, InitGlobalSysVar: 996.578µs","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1529|10.158.10.185:45962|{account sys:da2c992a-ddba-4750-b54a-6e37af927c6d: -- 0:0:0}|goRoutineId 140290|018f52c1-8101-7934-91ca-edeaed2074f4"}
+{"level":"INFO","time":"2024/05/07 11:12:44.295212 +0000","name":"cn-service.frontend","caller":"frontend/routine.go:264","msg":"mo received first request","uuid":"34323564-3035-3739-6638-343835663837","session_info":"connectionId 1529|10.158.10.185:45962|{account sys:da2c992a-ddba-4750-b54a-6e37af927c6d:moadmin -- 0:4294967295:0}|goRoutineId 140290|018f52c1-8101-7934-91ca-edeaed2074f4"}
 
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
 }
-Start JoinRun 3 1
-Start JoinRun 3 1
+merge Prepare 4294967295122
+aliveMergeReceiver =  1 4294967295122
+connector Prepare 4294967295122
+connector put bat into  0xc00b3fc7e0 4294967295122
+connector End 4294967295122
+connector Free 4294967295122
+connector Free put nil into  0xc00b3fc7e0 4294967295122
+aliveMergeReceiver =  1 4294967295122
+aliveMergeReceiver =  0 4294967295122
+merge End 4294967295122
+merge Free 4294967295122
 
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
 }
-PreScope 0 1 0
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
+merge Prepare 42949672952
+aliveMergeReceiver =  1 42949672952
+connector Prepare 42949672952
+connector put bat into  0xc00b3fcc60 42949672952
+connector End 42949672952
+connector Free 42949672952
+connector Free put nil into  0xc00b3fcc60 42949672952
+aliveMergeReceiver =  1 42949672952
+aliveMergeReceiver =  0 42949672952
+merge End 42949672952
+merge Free 42949672952
 
-Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> projection -> pre insert 2nd -> lockop -> projection -> insert]
-connector Prepare 162734
-aliveMergeReceiver =  1 162734
-PreScope 0 1 0
-3 2
-
-Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+  Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> projection -> connect to MergeReceiver 0]
+  DataSource: mo_task.sys_cron_task[cron_task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option cron_expr next_time trigger_times create_at update_at],
+}
+merge Prepare 1509123
+aliveMergeReceiver =  1 1509123
+Before handleRuntimeFilter 1509123
+Finish handleRuntimeFilter 1509123 1
+TableScan Prepare 1509123
+connector Prepare 1509123
+connector put bat into  0xc025a35bc0 1509123
+connector End 1509123
+TableScan Free 1509123
+connector Free 1509123
+connector Free put nil into  0xc025a35bc0 1509123
+aliveMergeReceiver =  1 1509123
+aliveMergeReceiver =  0 1509123
+merge End 1509123
+merge Free 1509123
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
     PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-8977-7166-b9fa-1c2a62ca57fc[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
-    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
-      PreScopes: {
-      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
-    }
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
   }
 }
-merge Prepare 162734
-PreScope 0 1 2
-merge Prepare 162734
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-3 2
-Join Run 7
-connector Prepare 162734
-PreScope 0 7 0
-PreScope 1 7 0
-PreScope 2 7 0
-PreScope 3 7 2
-aliveMergeReceiver =  1 162734
-PreScope 4 7 0
-connector Prepare 162734
-Before handleRuntimeFilter 162734
-PreScope 0 1 0
-merge Prepare 162734
-Start JoinRun 3 1
-aliveMergeReceiver =  1 162734
-PreScope 5 7 0
+merge Prepare 15293
+aliveMergeReceiver =  1 15293
+connector Prepare 15293
+aliveMergeReceiver =  1 15293
+Before handleRuntimeFilter 15293
+Finish handleRuntimeFilter 15293 1
+TableScan Prepare 15293
+connector Prepare 15293
+connector put bat into  0xc00be7b9e0 15293
+connector End 15293
+TableScan Free 15293
+connector Free 15293
+connector Free put nil into  0xc00be7b9e0 15293
+aliveMergeReceiver =  1 15293
+aliveMergeReceiver =  0 15293
+connector put bat into  0xc00be7ba40 15293
+connector Free 15293
+connector Free put nil into  0xc00be7ba40 15293
+aliveMergeReceiver =  1 15293
+aliveMergeReceiver =  0 15293
+merge End 15293
+merge Free 15293
+{"level":"INFO","time":"2024/05/07 11:12:44.297548 +0000","caller":"frontend/routine.go:342","msg":"set query status on the connection 1529"}
 
-Scope 1 (Magic: Merge, Receiver: [4]): [merge -> dispatch to all of MergeReceiver [unknown, unknown].]
+Scope 1 (Magic: Merge, Receiver: [0]): [merge -> output]
   PreScopes: {
-  Scope 1 (Magic: Remote, Receiver: [2, 3]): [join -> connect to MergeReceiver 4]
+  Scope 1 (Magic: Normal, Receiver: []): [projection -> projection -> connect to MergeReceiver 0]
+  DataSource: [],
+}
+merge Prepare 4294967295125
+aliveMergeReceiver =  1 4294967295125
+connector Prepare 4294967295125
+connector put bat into  0xc013680180 4294967295125
+connector End 4294967295125
+connector Free 4294967295125
+connector Free put nil into  0xc013680180 4294967295125
+aliveMergeReceiver =  1 4294967295125
+aliveMergeReceiver =  0 4294967295125
+merge End 4294967295125
+merge Free 4294967295125
+
+Scope 1 (Magic: Merge, Receiver: [1]): [merge -> output]
+  PreScopes: {
+  Scope 1 (Magic: Merge, Receiver: [0]): [merge order -> projection -> projection -> connect to MergeReceiver 1]
     PreScopes: {
-    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> connect to MergeReceiver 2]
-    DataSource: mo_task.__mo_index_secondary_018f5223-8986-7d72-abbd-995822f7c0b0[__mo_index_idx_col __mo_index_pri_col __mo_rowid],
-    Scope 2 (Magic: Merge, Receiver: [1]): [merge -> dispatch to all of MergeReceiver [3].]
-      PreScopes: {
-      Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> connect to MergeReceiver 1]
-    }
+    Scope 1 (Magic: Remote, Receiver: []): [restrict -> projection -> order -> connect to MergeReceiver 0]
+    DataSource: mo_task.sys_async_task[task_id task_metadata_id task_metadata_executor task_metadata_context task_metadata_option task_parent_id task_status task_runner task_epoch last_heartbeat result_code error_msg create_at end_at],
   }
 }
-inner join prepare
-connector Prepare 162734
-PreScope 6 7 0
-inner join prepare
-connector Prepare 162734
-merge Prepare 162734
-connector Prepare 162734
-aliveMergeReceiver =  3 162734
-aliveMergeReceiver =  1 162734
-PreScope 0 1 2
-merge Prepare 162734
-3 2
-merge Prepare 162734
-Join Run 7
-PreScope 0 7 0
-PreScope 1 7 0
-PreScope 2 7 0
-Start JoinRun 3 1
-PreScope 3 7 2
-PreScope 4 7 0
-PreScope 5 7 0
-PreScope 6 7 0
-merge Prepare 162734
-connector Prepare 162734
-aliveMergeReceiver =  3 162734
-merge Prepare 162734
-merge Prepare 162734
-
-Scope 1 (Magic: Merge, Receiver: [1]): [merge -> delete]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> lockop -> connect to MergeReceiver 1]
-}
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-inner join prepare
-inner join prepare
-connector Prepare 162734
-connector Prepare 162734
-merge Prepare 162734
-PreScope 0 1 0
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-PreScope 0 1 0
-merge Prepare 162734
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-Before handleRuntimeFilter 162734
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-connector Prepare 162734
-merge Prepare 162734
-connector Prepare 162734
-aliveMergeReceiver =  1 162734
-connector Prepare 162734
-Join Run 7
-aliveMergeReceiver =  1 162734
-connector Prepare 162734
-merge Prepare 162734
-3 2
-Join Run 7
-inner join prepare
-PreScope 0 7 0
-aliveMergeReceiver =  1 162734
-connector Prepare 162734
-PreScope 1 7 0
-inner join prepare
-PreScope 2 7 0
-connector Prepare 162734
-PreScope 3 7 2
-aliveMergeReceiver =  1 162734
-PreScope 4 7 0
-PreScope 0 7 0
-PreScope 5 7 0
-PreScope 1 7 0
-inner join prepare
-connector Prepare 162734
-inner join prepare
-inner join prepare
-connector Prepare 162734
-connector Prepare 162734
-PreScope 6 7 0
-PreScope 2 7 0
-PreScope 3 7 2
-merge Prepare 162734
-PreScope 4 7 0
-inner join prepare
-connector Prepare 162734
-aliveMergeReceiver =  1 162734
-inner join prepare
-connector Prepare 162734
-inner join prepare
-merge Prepare 162734
-connector Prepare 162734
-connector Prepare 162734
-aliveMergeReceiver =  3 162734
-aliveMergeReceiver =  1 162734
-PreScope 0 1 0
-Before handleRuntimeFilter 162734
-merge Prepare 162734
-PreScope 5 7 0
-PreScope 0 1 0
-PreScope 6 7 0
-merge Prepare 162734
-merge Prepare 162734
-Before handleRuntimeFilter 162734
-merge Prepare 162734
-connector Prepare 162734
-aliveMergeReceiver =  3 162734
-merge Prepare 162734
-connector Prepare 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-merge Prepare 162734
-aliveMergeReceiver =  1 162734
-connector Prepare 162734
-aliveMergeReceiver =  1 162734
-connector put bat into  0xc01315c7e0 162734
-connector End 162734
-TableScan Free 162734
-connector Free 162734
-connector Free put nil into  0xc01315c7e0 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-connector put bat into  0xc01315c360 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector End 162734
-connector put bat into  0xc009e83020 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector End 162734
-merge Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83020 162734
-aliveMergeReceiver =  1 162734
-connector put bat into  0xc009e83440 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector End 162734
-merge Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83440 162734
-connector put bat into  0xc009e83da0 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-aliveMergeReceiver =  0 162734
-aliveMergeReceiver =  1 162734
-connector put bat into  0xc009e838c0 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector End 162734
-merge Free 162734
-merge End 162734
-merge Free 162734
-connector End 162734
-merge End 162734
-merge Free 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83da0 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-merge Free 162734
-connector Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e838c0 162734
-connector Free put nil into  0xc01315c360 162734
-aliveMergeReceiver =  0 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-merge Free 162734
-merge End 162734
-merge Free 162734
-ReceiveMessage  1
-hashbuild sendFilter End
-hashbuild sendFilter End
-hashbuild sendFilter End
-ReceiveMessage  1
-hashbuild sendFilter End
-Finish handleRuntimeFilter 162734 3
-TableScan Prepare 162734
-ReceiveMessage  1
-connector Prepare 162734
-Finish handleRuntimeFilter 162734 3
-connector put bat into  0xc009e83ce0 162734
-ReceiveMessage  1
-connector End 162734
-TableScan Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83ce0 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-connector End 162734
-TableScan Prepare 162734
-connector Prepare 162734
-connector put bat into  0xc00ae58660 162734
-connector End 162734
-Finish handleRuntimeFilter 162734 3
-connector End 162734
-inner join free
-connector Free 162734
-connector Free put nil into  0xc00ae586c0 162734
-Finish handleRuntimeFilter 162734 3
-TableScan Prepare 162734
-TableScan Prepare 162734
-connector Prepare 162734
-connector put bat into  0xc009e83380 162734
-connector put bat into  0xc009e83e00 162734
-aliveMergeReceiver =  3 162734
-connector End 162734
-aliveMergeReceiver =  2 162734
-TableScan Free 162734
-inner join free
-connector Free 162734
-connector Free 162734
-connector Free put nil into  0xc00ae58720 162734
-inner join free
-connector Free 162734
-connector Free put nil into  0xc00ae58660 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-connector End 162734
-inner join free
-connector Free 162734
-connector Free put nil into  0xc00c63c120 162734
-aliveMergeReceiver =  2 162734
-connector Prepare 162734
-connector put bat into  0xc009e83800 162734
-connector End 162734
-TableScan Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83800 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-connector End 162734
-inner join free
-connector Free 162734
-connector Free put nil into  0xc00e257260 162734
-aliveMergeReceiver =  2 162734
-connector put bat into  0xc00c63c060 162734
-connector End 162734
-connector End 162734
-connector End 162734
-inner join free
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-connector put bat into  0xc00e2571a0 162734
-inner join free
-connector End 162734
-connector Free 162734
-inner join free
-connector Free put nil into  0xc00e257200 162734
-connector Free 162734
-aliveMergeReceiver =  1 162734
-connector Free put nil into  0xc00c63c0c0 162734
-merge End 162734
-connector put bat into  0xc009e83920 162734
-connector End 162734
-merge Free 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  2 162734
-connector Free put nil into  0xc009e83380 162734
-connector Free 162734
-aliveMergeReceiver =  1 162734
-connector Free put nil into  0xc009e83e00 162734
-connector put bat into  0xc009e834a0 162734
-aliveMergeReceiver =  2 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-connector put bat into  0xc01315c240 162734
-connector End 162734
-TableScan Free 162734
-connector Free 162734
-connector Free put nil into  0xc01315c240 162734
-inner join free
-connector Free 162734
-connector Free put nil into  0xc00c63c060 162734
-connector put bat into  0xc00a1d9e60 162734
-connector Free 162734
-connector Free put nil into  0xc00e2571a0 162734
-aliveMergeReceiver =  0 162734
-connector put bat into  0xc01315c3c0 162734
-aliveMergeReceiver =  0 162734
-aliveMergeReceiver =  3 162734
-merge End 162734
-aliveMergeReceiver =  1 162734
-connector End 162734
-merge Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83920 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge End 162734
-connector End 162734
-merge Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e834a0 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-merge Free 162734
-connector End 162734
-inner join free
-connector Free 162734
-connector Free put nil into  0xc00a1d9f20 162734
-aliveMergeReceiver =  2 162734
-connector End 162734
-inner join free
-connector Free 162734
-connector Free put nil into  0xc00a1d9ec0 162734
-connector End 162734
-inner join free
-connector put bat into  0xc009e83b60 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector End 162734
-merge Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83b60 162734
-connector Free 162734
-connector Free put nil into  0xc00a1d9e60 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector put bat into  0xc009e83200 162734
-merge Free 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector End 162734
-merge Free 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-aliveMergeReceiver =  1 162734
-connector Free 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector Free put nil into  0xc009e83200 162734
-connector End 162734
-merge Free 162734
-merge Free 162734
-merge Free 162734
-connector put bat into  0xc01315c060 162734
-aliveMergeReceiver =  1 162734
-connector put bat into  0xc009e83680 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-connector End 162734
-aliveMergeReceiver =  1 162734
-connector Free 162734
-merge Free 162734
-connector Free put nil into  0xc01315c3c0 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-aliveMergeReceiver =  1 162734
-merge Free 162734
-connector Free 162734
-connector Free put nil into  0xc009e83680 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector End 162734
-merge Free 162734
-connector Free 162734
-aliveMergeReceiver =  1 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-connector Free put nil into  0xc01315c060 162734
-merge Free 162734
-aliveMergeReceiver =  0 162734
-aliveMergeReceiver =  0 162734
-merge End 162734
-merge Free 162734
-merge End 162734
-merge Free 162734
-
-Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
-    PreScopes: {
-    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
-    DataSource: [],
-  }
-  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
-  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
-  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
-  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
-  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
-  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
-  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
-}
-PreScope 0 8 0
-PreScope 1 8 0
-PreScope 2 8 0
-PreScope 3 8 0
-PreScope 4 8 0
-PreScope 5 8 0
-PreScope 6 8 0
-PreScope 7 8 0
-merge Prepare 16285
-aliveMergeReceiver =  8 16285
-merge Prepare 16285
-merge Prepare 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-merge Prepare 16285
-PreScope 0 1 1
-merge Prepare 16285
-merge Prepare 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-merge Prepare 16285
-merge Prepare 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-merge Prepare 16285
-connector Prepare 16285
-aliveMergeReceiver =  1 16285
-aliveMergeReceiver =  0 16285
-merge End 16285
-aliveMergeReceiver =  0 16285
-merge End 16285
-connector End 16285
-merge Free 16285
-connector End 16285
-merge Free 16285
-connector Free 16285
-connector Free put nil into  0xc00d52e060 16285
-connector Free 16285
-aliveMergeReceiver =  7 16285
-connector Free put nil into  0xc00e257e60 16285
-aliveMergeReceiver =  6 16285
-aliveMergeReceiver =  0 16285
-merge End 16285
-aliveMergeReceiver =  0 16285
-merge End 16285
-connector End 16285
-merge Free 16285
-aliveMergeReceiver =  0 16285
-aliveMergeReceiver =  0 16285
-merge End 16285
-connector End 16285
-merge Free 16285
-connector Free 16285
-connector Free put nil into  0xc00e257da0 16285
-aliveMergeReceiver =  5 16285
-aliveMergeReceiver =  0 16285
-connector End 16285
-merge End 16285
-connector End 16285
-merge Free 16285
-connector Free 16285
-connector Free put nil into  0xc00d52e000 16285
-aliveMergeReceiver =  4 16285
-connector Free 16285
-connector Free put nil into  0xc00e257e00 16285
-aliveMergeReceiver =  3 16285
-merge Free 16285
-connector Free 16285
-connector Free put nil into  0xc00e257f80 16285
-aliveMergeReceiver =  2 16285
-merge End 16285
-connector End 16285
-merge Free 16285
-connector Free 16285
-connector Free put nil into  0xc00e257ec0 16285
-aliveMergeReceiver =  1 16285
-aliveMergeReceiver =  1 16285
-aliveMergeReceiver =  0 16285
-merge End 16285
-connector put bat into  0xc00e257d40 16285
-connector End 16285
-merge Free 16285
-connector Free 16285
-connector Free put nil into  0xc00e257d40 16285
-aliveMergeReceiver =  1 16285
-aliveMergeReceiver =  0 16285
-merge End 16285
-merge Free 16285
-
-Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
-    PreScopes: {
-    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
-    DataSource: [],
-  }
-  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
-  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
-  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
-  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
-  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
-  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
-  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
-}
-PreScope 0 8 0
-PreScope 1 8 0
-PreScope 2 8 0
-PreScope 3 8 0
-PreScope 4 8 0
-PreScope 5 8 0
-PreScope 6 8 0
-PreScope 7 8 0
-merge Prepare 16197
-aliveMergeReceiver =  8 16197
-merge Prepare 16197
-connector Prepare 16197
-merge Prepare 16197
-merge Prepare 16197
-connector Prepare 16197
-PreScope 0 1 1
-connector Prepare 16197
-merge Prepare 16197
-merge Prepare 16197
-aliveMergeReceiver =  1 16197
-merge Prepare 16197
-aliveMergeReceiver =  1 16197
-connector Prepare 16197
-connector Prepare 16197
-aliveMergeReceiver =  1 16197
-aliveMergeReceiver =  1 16197
-connector Prepare 16197
-merge Prepare 16197
-aliveMergeReceiver =  1 16197
-merge Prepare 16197
-connector Prepare 16197
-aliveMergeReceiver =  1 16197
-aliveMergeReceiver =  1 16197
-connector Prepare 16197
-aliveMergeReceiver =  1 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-connector End 16197
-merge Free 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-connector Free 16197
-connector Free put nil into  0xc00a43bec0 16197
-connector End 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-aliveMergeReceiver =  7 16197
-aliveMergeReceiver =  0 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-merge End 16197
-connector End 16197
-merge Free 16197
-connector End 16197
-merge Free 16197
-connector Free 16197
-connector End 16197
-connector Free put nil into  0xc00a43b7a0 16197
-merge Free 16197
-aliveMergeReceiver =  6 16197
-connector End 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-connector Free 16197
-connector Free put nil into  0xc00a43b980 16197
-connector End 16197
-merge Free 16197
-connector Free 16197
-connector Free put nil into  0xc00a43b920 16197
-merge Free 16197
-connector Free 16197
-connector Free put nil into  0xc00a43b740 16197
-connector Free 16197
-connector Free put nil into  0xc00a43b8c0 16197
-aliveMergeReceiver =  5 16197
-aliveMergeReceiver =  4 16197
-aliveMergeReceiver =  3 16197
-aliveMergeReceiver =  2 16197
-merge Free 16197
-connector Free 16197
-connector Free put nil into  0xc00a43b9e0 16197
-aliveMergeReceiver =  1 16197
-aliveMergeReceiver =  1 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-connector put bat into  0xc00a43b6e0 16197
-connector End 16197
-merge Free 16197
-connector Free 16197
-connector Free put nil into  0xc00a43b6e0 16197
-aliveMergeReceiver =  1 16197
-aliveMergeReceiver =  0 16197
-merge End 16197
-merge Free 16197
-
-Scope 1 (Magic: MergeInsert, Receiver: [8, 9, 10, 11, 12, 13, 14, 15]): [merge -> merge block]
-  PreScopes: {
-  Scope 1 (Magic: Merge, Receiver: [0]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 8]
-    PreScopes: {
-    Scope 1 (Magic: Normal, Receiver: []): [external -> dispatch to any of MergeReceiver [0, 1, 2, 3, 4, 5, 6, 7].]
-    DataSource: [],
-  }
-  Scope 2 (Magic: Merge, Receiver: [1]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 9]
-  Scope 3 (Magic: Merge, Receiver: [2]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 10]
-  Scope 4 (Magic: Merge, Receiver: [3]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 11]
-  Scope 5 (Magic: Merge, Receiver: [4]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 12]
-  Scope 6 (Magic: Merge, Receiver: [5]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 13]
-  Scope 7 (Magic: Merge, Receiver: [6]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 14]
-  Scope 8 (Magic: Merge, Receiver: [7]): [merge -> projection -> projection -> pre insert -> insert -> connect to MergeReceiver 15]
-}
-PreScope 0 8 0
-PreScope 1 8 0
-PreScope 2 8 0
-PreScope 3 8 0
-PreScope 4 8 0
-PreScope 5 8 0
-PreScope 6 8 0
-PreScope 7 8 0
-merge Prepare 16198
-aliveMergeReceiver =  8 16198
-merge Prepare 16198
-PreScope 0 1 1
-merge Prepare 16198
-connector Prepare 16198
-merge Prepare 16198
-aliveMergeReceiver =  1 16198
-merge Prepare 16198
-merge Prepare 16198
-connector Prepare 16198
-merge Prepare 16198
-aliveMergeReceiver =  1 16198
-connector Prepare 16198
-connector Prepare 16198
-aliveMergeReceiver =  1 16198
-aliveMergeReceiver =  1 16198
-connector Prepare 16198
-aliveMergeReceiver =  1 16198
-merge Prepare 16198
-connector Prepare 16198
-connector Prepare 16198
-aliveMergeReceiver =  1 16198
-merge Prepare 16198
-connector Prepare 16198
-aliveMergeReceiver =  1 16198
-aliveMergeReceiver =  1 16198
-aliveMergeReceiver =  0 16198
-merge End 16198
-connector End 16198
-merge Free 16198
-connector Free 16198
-connector Free put nil into  0xc011971860 16198
-aliveMergeReceiver =  7 16198
-aliveMergeReceiver =  0 16198
-merge End 16198
-aliveMergeReceiver =  0 16198
-merge End 16198
-connector End 16198
-connector End 16198
-merge Free 16198
-aliveMergeReceiver =  0 16198
-connector Free 16198
-aliveMergeReceiver =  0 16198
-connector Free put nil into  0xc011971800 16198
-aliveMergeReceiver =  0 16198
-merge Free 16198
-aliveMergeReceiver =  0 16198
-merge End 16198
-connector Free 16198
-connector Free put nil into  0xc0119717a0 16198
-merge End 16198
-connector End 16198
-connector End 16198
-merge Free 16198
-connector Free 16198
-aliveMergeReceiver =  1 16198
-aliveMergeReceiver =  0 16198
-aliveMergeReceiver =  6 16198
-aliveMergeReceiver =  5 16198
-aliveMergeReceiver =  4 16198
-merge End 16198
-connector End 16198
-merge Free 16198
-connector Free 16198
-connector Free put nil into  0xc011971620 16198
-aliveMergeReceiver =  3 16198
-merge End 16198
-connector End 16198
-merge Free 16198
-connector Free 16198
-connector Free put nil into  0xc011971740 16198
-aliveMergeReceiver =  2 16198
-merge Free 16198
-connector Free 16198
-merge End 16198
-aliveMergeReceiver =  1 16198
-connector Free put nil into  0xc011971680 16198
-connector put bat into  0xc0119715c0 16198
-connector End 16198
-merge Free 16198
-connector Free 16198
-connector Free put nil into  0xc0119715c0 16198
-aliveMergeReceiver =  1 16198
-aliveMergeReceiver =  0 16198
-merge End 16198
-connector Free put nil into  0xc0119716e0 16198
-merge Free 16198
-{"level":"INFO","time":"2024/05/07 09:07:35.224578 +0000","caller":"frontend/routine.go:342","msg":"set query status on the connection 1619"}
+merge Prepare 1509126
+aliveMergeReceiver =  1 1509126
+connector Prepare 1509126
+aliveMergeReceiver =  1 1509126
+Before handleRuntimeFilter 1509126
+Finish handleRuntimeFilter 1509126 1
+TableScan Prepare 1509126
+connector Prepare 1509126
+connector End 1509126
+TableScan Free 1509126
+connector Free 1509126
+connector Free put nil into  0xc00b11d140 1509126
+aliveMergeReceiver =  0 1509126
+connector End 1509126
+connector Free 1509126
+connector Free put nil into  0xc00b11d1a0 1509126
+aliveMergeReceiver =  0 1509126
+merge End 1509126
+merge Free 1509126
